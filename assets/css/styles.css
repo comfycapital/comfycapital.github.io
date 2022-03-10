@@ -3,6 +3,11 @@
     src: url(https://comfycapital.github.io/assets/fonts/prida01/Prida01Bold.otf);
 }
 
+@font-face {
+    font-family: LinLibertine;
+    src: url(/assets/fonts/linux_libertine/LinLibertine_aDRS.ttf);
+}
+
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -47,9 +52,9 @@ a {
 }
 
 h1 {
-    font-family: Prida01bold, Arial, Helvetica, sans-serif;
+    font-family: LinLibertine, Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 0em;
     padding: 0 1em 0.2em 1em;
 }
