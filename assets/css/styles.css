@@ -1,6 +1,6 @@
 @font-face {
     font-family: Prida01Bold;
-    src: url(/assets/fonts/prida01/Prida01Bold.otf);
+    src: url(https://comfycapital.github.io/assets/fonts/prida01/Prida01Bold.otf);
 }
 
 html {
@@ -31,6 +31,7 @@ body {
     background-color: #f5f4f1;
     color: #202020;
     opacity: 0;
+    -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
     /* Safari */
@@ -168,69 +169,6 @@ h4 {
 
 @media screen and (max-width: 1000px) {
     .section-center-about {
-        padding: 0 1em 0 1em;
-        width: 100%;
-    }
-}
-
-/* Section Research */
-
-.section-research {
-    height: 15em;
-    border-top: 1px solid #dddcda;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.section-research:hover {
-    background-color: #e9e8e6;
-}
-
-.items-research {
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #202020;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-}
-
-.center-research {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-@media screen and (max-width: 1000px) {
-    .center-research {
         padding: 0 1em 0 1em;
         width: 100%;
     }
