@@ -116,7 +116,37 @@ h4 {
     }
 }
 
-/* Section Comfy Capital */
+.cc-header {
+    font-size: 6em;
+    text-align: center;
+    margin: 0.2em;
+}
+
+@media screen and (max-width: 1000px) {
+    .cc-header {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cc-header {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cc-header {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cc-header {
+        font-size: 2.5em;
+    }
+}
+
+/* Section About */
 
 .section-about {
     height: 15em;
