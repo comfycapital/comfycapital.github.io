@@ -15,6 +15,7 @@ html {
     font: inherit;
     vertical-align: baseline;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 *,
