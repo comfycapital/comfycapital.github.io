@@ -1,9 +1,9 @@
 h4 {
-    margin: 2em 0 0 0;
+    margin: 2em 1em 0 1em;
 }
 
 .about {
-    height: 15em;
+    height: 14em;
     border-top: 1px solid #dddcda;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
