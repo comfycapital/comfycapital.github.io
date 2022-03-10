@@ -116,6 +116,25 @@ h4 {
     }
 }
 
+.cc-header-div {
+    height: 14em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .cc-header-div {
+        height: 10em;
+    }
+}
+
 .cc-header {
     font-size: 6em;
     text-align: center;
@@ -146,21 +165,27 @@ h4 {
     }
 }
 
-/* Section About */
+/* Sections */
 
-.section-about {
-    height: 15em;
+.sections {
+    height: 14em;
     border-top: 1px solid #dddcda;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
 
-.section-about:hover {
+@media screen and (max-width: 700px) {
+    .sections {
+        height: 10em;
+    }
+}
+
+.sections:hover {
     background-color: #e9e8e6;
 }
 
-.section-items-about {
+.sections-items {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #202020;
@@ -173,87 +198,6 @@ h4 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
-
-@media screen and (max-width: 1000px) {
-    .section-center-about {
-        padding: 0 1em 0 1em;
-        width: 100%;
-    }
-}
-
-/* Section Contact */
-
-.section-contact {
-    height: 15em;
-    border-top: 1px solid #dddcda;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.section-contact:hover {
-    background-color: #e9e8e6;
-}
-
-.items-contact {
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #202020;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-@media screen and (max-width: 1000px) {
-    .center-contact {
-        padding: 0 1em 0 1em;
-        width: 100%;
-    }
-}
-
-/* Section Home */
-
-.section-home {
-    height: 15em;
-    border-top: 1px solid #dddcda;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.section-home:hover {
-    background-color: #e9e8e6;
-}
-
-.section-items-home {
-    height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #202020;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-}
-
-@media screen and (max-width: 1000px) {
-    .section-center-home {
-        padding: 0 1em 0 1em;
-        width: 100%;
-    }
 }
 
 /* Footer */
