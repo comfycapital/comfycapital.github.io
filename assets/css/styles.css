@@ -1,9 +1,4 @@
 @font-face {
-    font-family: Prida01Bold;
-    src: url(https://comfycapital.github.io/assets/fonts/prida01/Prida01Bold.otf);
-}
-
-@font-face {
     font-family: LinLibertine;
     src: url(/assets/fonts/linux_libertine/LinLibertine_aDRS.ttf);
 }
@@ -71,13 +66,68 @@ h4 {
     display: inline-block;
 }
 
-/* Header */
+/* Nav */
+
+.nav {
+    height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 2em;
+}
 
 .header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1em;
+    display: inline;
+}
+
+.comfy {
+    font-family: PIXEARG_, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.capital {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+
+.icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 30px;
+    margin: 1.5em 0 1.5em 0;
+}
+
+/* Header Img */
+
+.header-img {
     width: 100%;
 }
 
-.header-img {
+.header-img-pixel {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -90,17 +140,17 @@ h4 {
 }
 
 @media screen and (max-width: 1000px) {
-    .header-img {
+    .header-img-pixel {
         display: none;
     }
 }
 
-.header-img-phone {
+.header-img-pixel-phone {
     display: none;
 }
 
 @media screen and (max-width: 1000px) {
-    .header-img-phone {
+    .header-img-pixel-phone {
         width: 100%;
         height: 20%;
         margin: 0;
@@ -112,73 +162,6 @@ h4 {
         -ms-flex-pack: center;
         justify-content: center;
     }
-}
-
-.cc-header-div {
-    height: 14em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 10px;
-}
-
-@media screen and (max-width: 700px) {
-    .cc-header-div {
-        height: 10em;
-    }
-}
-
-.cc-header {
-    font-size: 6em;
-    text-align: center;
-    margin: 0.2em;
-}
-
-@media screen and (max-width: 1000px) {
-    .cc-header {
-        font-size: 5em;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .cc-header {
-        font-size: 4em;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .cc-header {
-        font-size: 3em;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .cc-header {
-        font-size: 2.5em;
-    }
-}
-
-.comfy {
-    font-family: PIXEARG_, Arial, Helvetica, sans-serif;
-    font-size:4em;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.capital {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size:5.5em;
-    padding: 0;
-    margin: 0;
-    display: none;
 }
 
 /* Sections */
@@ -222,9 +205,7 @@ h4 {
     width: 100%;
     padding: 0 1em 0 1em;
     border-top: 1px solid #dddcda;
-}
-
-.footer-div {
+    padding: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -238,32 +219,11 @@ h4 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
-
-.icons {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 30px;
-    margin: 1.5em 0 1.5em 0;
+    text-align: center;
 }
 
 .footer-text {
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     color: #202020;
-    padding: 0 1em 0 1em;
-    text-align: center;
-    margin: 0 0 1.5em 0;
 }
