@@ -45,7 +45,6 @@ body {
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
-    /* Safari */
 }
 
 a {
@@ -70,12 +69,6 @@ h4 {
     font-size: 1em;
     font-weight: 100;
     display: inline-block;
-}
-
-@media screen and (max-width: 1000px) {
-    h4 {
-        font-size: 0.9em;
-    }
 }
 
 /* Header */
