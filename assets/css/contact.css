@@ -19,7 +19,7 @@
 }
 
 .contact-right {
-    background-color: #94ACB0;
+    background-color: #343434;
     height: 100%;
     width: 40%;
     float: right;
@@ -38,7 +38,7 @@
 }
 
 .contact-right:hover {
-    background-color: #899FA3;
+    background-color: #303030;
 }
 
 
