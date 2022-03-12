@@ -49,8 +49,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 2em;
-    margin: 0em;
-    padding: 0 1em 0.2em 1em;
+    margin: 0;
 }
 
 
@@ -59,6 +58,7 @@ h4 {
     font-size: 1em;
     font-weight: 100;
     display: inline-block;
+    margin: 0;
 }
 
 /* Nav */
@@ -157,9 +157,9 @@ h4 {
     }
 }
 
-/* Sections */
+/* Button */
 
-.sections {
+.button {
     height: 14em;
     border-top: 1px solid #dddcda;
     -webkit-transition: 0.3s;
@@ -168,16 +168,16 @@ h4 {
 }
 
 @media screen and (max-width: 700px) {
-    .sections {
+    .button {
         height: 10em;
     }
 }
 
-.sections:hover {
+.button:hover {
     background-color: #e9e8e6;
 }
 
-.sections-items {
+.button-items {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #202020;
@@ -190,13 +190,14 @@ h4 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding: 0 2em 0 2em;
 }
 
 /* Footer */
 
 .footer {
     width: 100%;
-    padding: 0 1em 0 1em;
+    padding: 0 2em 0 2em;
     border-top: 1px solid #dddcda;
     padding: 1em;
     display: -webkit-box;
