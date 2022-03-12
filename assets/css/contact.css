@@ -1,11 +1,5 @@
-.contact {
+.contact-top {
     height: 14em;
-}
-
-.contact-left {
-    height: 100%;
-    width: 60%;
-    float: left;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -15,14 +9,13 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 2em 0 4em;
+    padding: 0 2em 0 2em;
+    text-align: center;
 }
 
-.contact-right {
+.contact-bottom {
     background-color: #343434;
-    height: 100%;
-    width: 40%;
-    float: right;
+    height: 14em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -37,27 +30,21 @@
     transition: 0.3s;
 }
 
-.contact-right:hover {
+.contact-bottom:hover {
     background-color: #303030;
 }
 
-
 @media screen and (max-width: 700px) {
-    .contact {
-        height: 18em;
+    .contact-top {
+        height: 10em;
     }
-
-    .contact-left {
-        font-size: 0.8em;
+    .contact-bottom {
+        height: 10em;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .contact {
-        height: 22em;
-    }
-
-    .contact-left {
-        font-size: 0.6em;
+    .contact-top {
+        font-size: 0.8em;
     }
 }
