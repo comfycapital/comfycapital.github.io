@@ -84,14 +84,15 @@ h4 {
             align-items: center;
     height: 5em;
     padding: 0 2em 0 2em;
-    border-right: 1px solid #dddcda;
 }
 
-.nav-logo:hover {
-    background-color: #e9e8e6;
+@media screen and (max-width: 550px) {
+    .nav-logo {
+        border-right: 0px;
+    }
 }
 
-.icons {
+.nav-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -102,6 +103,12 @@ h4 {
     height: 5em;
     padding: 0 2em 0 2em;
     border-left: 1px solid #dddcda;
+}
+
+@media screen and (max-width: 550px) {
+    .nav-icons {
+        border-left: 0px;
+    }
 }
 
 /* Header Img */
@@ -181,6 +188,74 @@ h4 {
     -ms-flex-align: center;
     align-items: center;
     padding: 0 2em 0 2em;
+}
+
+/* About */
+
+.about {
+    height: 14em;
+    border-top: 1px solid #dddcda;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2em;
+}
+
+/* Contact */
+
+.contact {
+    height: 14em;
+    border-top: 1px solid #dddcda;
+}
+
+.contact-text {
+    height: 100%;
+    width: 50%;
+    padding: 2em;
+    color: #202020;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-twitter {
+    height: 100%;
+    width: 50%;
+    background-color: #303030;
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.contact-twitter:hover {
+    background-color: #2A2A2A;
 }
 
 /* Footer */
