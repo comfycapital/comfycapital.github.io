@@ -9,7 +9,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -17,14 +19,16 @@
 }
 
 .contact-right {
-    background-color: #85ADB7;
+    background-color: #94ACB0;
     height: 100%;
     width: 40%;
     float: right;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -34,7 +38,7 @@
 }
 
 .contact-right:hover {
-    background-color: #7B9FA8;
+    background-color: #899FA3;
 }
 
 
