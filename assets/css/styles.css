@@ -1,9 +1,4 @@
 @font-face {
-    font-family: LinLibertine;
-    src: url(/assets/fonts/linux_libertine/LinLibertine_aDRS.ttf);
-}
-
-@font-face {
     font-family: PIXEARG_;
     src: url(/assets/fonts/pixel_arial_11/PIXEARG_.TTF);
 }
@@ -51,9 +46,9 @@ a {
 }
 
 h1 {
-    font-family: LinLibertine, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0em;
     padding: 0 1em 0.2em 1em;
 }
