@@ -5,6 +5,18 @@
     padding: 0em 1em 0em 1em;
 }
 
+@media screen and (max-width: 900px) {
+    .page-sub-title {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .page-sub-title {
+        font-size: 2em;
+    }
+}
+
 .resources {
     height: 66em;
     border-top: 1px solid #dddcda;
@@ -44,7 +56,7 @@
 
 @media screen and (max-width: 1200px) {
     .resources {
-        height: 54em;
+        height: 58em;
     }
 
     .monthly-returns-full {
@@ -77,6 +89,10 @@
 }
 
 @media screen and (max-width: 550px) {
+    .resources {
+        height: 40em;
+    }
+
     .monthly-returns-900 {
         display: none;
     }
