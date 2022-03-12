@@ -25,10 +25,10 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 2em 0 4em;
+    padding: 0 2em 0 2em;
 }
 
-.about-right {
+.about-middle {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -38,8 +38,12 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 4em 0 2em;
+    padding: 0 2em 0 2em;
     text-align: center;
+}
+
+.about-right {
+    padding: 0 2em 0 2em;
 }
 
 @media screen and (max-width: 900px) {
