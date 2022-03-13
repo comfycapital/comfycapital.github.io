@@ -175,16 +175,122 @@ h2 {
     }
 }
 
+/* About */
+
+.about {
+    height: 28em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 2em 4em 2em 4em;
+    gap: 2em;
+}
+
+.about-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.about-left-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 1em;
+}
+
+.about-left-text {
+    font-size: 8em;
+}
+
+.about-right-text {
+    text-align: right;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1400px) {
+    .about-left-text {
+        font-size: 7em;
+    }
+    .about-right-text {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-left-text {
+        font-size: 6em;
+    }
+    .about-right-text {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-left-text {
+        font-size: 5em;
+    }
+    .about-right-text {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        height: 26em;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .about-left-text {
+        font-size: 4em;
+    }
+    .about-right-text {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about {
+        height: 24em;
+        padding: 2em 2em 2em 2em;
+    }
+    .about-left-text {
+        font-size: 3em;
+    }
+    .about-right-text {
+        font-size: 1em;
+    }
+}
+
 /* Contact */
 
 .contact {
     height: 14em;
+    border-top: 1px solid #dddcda;
 }
 
 .contact-left {
     height: 100%;
     width: 50%;
-    color: #202020;
     float: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -230,7 +336,6 @@ h2 {
     .contact {
         height: 20em;
     }
-
     .contact-left {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
