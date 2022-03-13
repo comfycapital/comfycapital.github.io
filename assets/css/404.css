@@ -1,5 +1,6 @@
 .sections {
     height: 14em;
+    padding: 2em;
 }
 
 .sections-items {
@@ -15,5 +16,4 @@
     -ms-flex-pack: center;
     justify-content: center;
     gap: 2em;
-    padding: 2em;
 }
