@@ -1,5 +1,5 @@
 .resources {
-    height: 66em;
+    height: 60em;
 }
 
 .page-sub-title {
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1200px) {
     .resources {
-        height: 58em;
+        height: 50em;
     }
 
     .monthly-returns-full {
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 900px) {
     .resources {
-        height: 50em;
+        height: 40em;
     }
 
     .page-sub-title {
@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 550px) {
     .resources {
-        height: 40em;
+        height: 30em;
     }
 
     .page-sub-title {
