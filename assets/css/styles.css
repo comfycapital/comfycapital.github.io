@@ -107,7 +107,7 @@ h2 {
 /* Header */
 
 .header {
-    height: 20em;
+    height: 15em;
     position: relative;
 }
 
@@ -120,13 +120,13 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .header {
-        height: 18em;
+        height: 14em;
     }
 }
 
 @media screen and (max-width: 800px) {
     .header {
-        height: 16em;
+        height: 13em;
     }
 
     .header-text {
