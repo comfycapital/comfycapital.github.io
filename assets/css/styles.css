@@ -119,20 +119,24 @@ h2 {
     padding: 0 4em 2em 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .header {
         height: 18em;
-        position: relative;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        height: 16em;
+    }
+    .header-text {
+        padding: 0 2em 2em 0;
     }
 }
 
 @media screen and (max-width: 700px) {
     .header {
-        height: 16em;
-        position: relative;
-    }
-    .header-text {
-        padding: 0 2em 2em 0;
+        height: 14em;
     }
 }
 
