@@ -1,22 +1,18 @@
-.page-sub-title {
-    font-family: LinLibertine, Arial, Helvetica, sans-serif;
-    font-size: 4em;
-    font-weight: 100;
-    padding: 0em 1em 0em 1em;
-}
-
 .resources {
     height: 66em;
-    border-top: 1px solid #dddcda;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
+}
+
+.page-title {
+    padding: 0em 2em 2em 2em;
+}
+
+.page-sub-title {
+    font-size: 4em;
+    padding: 0em 2em 0em 2em;
 }
 
 .items-resources {
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #202020;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -30,7 +26,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    text-align: center;
 }
 
 .monthly-returns-full {
@@ -62,6 +57,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .resources {
+        height: 50em;
+    }
+
     .page-sub-title {
         font-size: 3em;
     }
@@ -81,12 +80,12 @@
 }
 
 @media screen and (max-width: 550px) {
-    .page-sub-title {
-        font-size: 2em;
-    }
-
     .resources {
         height: 40em;
+    }
+
+    .page-sub-title {
+        font-size: 2em;
     }
 
     .monthly-returns-900 {
