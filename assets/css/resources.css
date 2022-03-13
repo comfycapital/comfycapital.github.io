@@ -2,13 +2,8 @@
     height: 66em;
 }
 
-.page-title {
-    padding: 0em 2em 2em 2em;
-}
-
 .page-sub-title {
     font-size: 4em;
-    padding: 0em 2em 0em 2em;
 }
 
 .items-resources {
@@ -26,6 +21,8 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    gap: 2em;
+    padding: 0em 2em 0 2em;
 }
 
 .monthly-returns-full {
