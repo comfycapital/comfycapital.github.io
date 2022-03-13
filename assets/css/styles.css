@@ -126,6 +126,7 @@ h2 {
 }
 
 @media screen and (max-width: 550px) {
+
     .header,
     .header-text {
         display: none;
@@ -184,11 +185,11 @@ h2 {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     padding: 2em 4em 2em 4em;
     gap: 2em;
 }
@@ -198,8 +199,8 @@ h2 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .about-left-column {
@@ -208,11 +209,11 @@ h2 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     gap: 1em;
 }
 
@@ -229,6 +230,7 @@ h2 {
     .about-left-text {
         font-size: 7em;
     }
+
     .about-right-text {
         font-size: 1.8em;
     }
@@ -238,6 +240,7 @@ h2 {
     .about-left-text {
         font-size: 6em;
     }
+
     .about-right-text {
         font-size: 1.6em;
     }
@@ -247,6 +250,7 @@ h2 {
     .about-left-text {
         font-size: 5em;
     }
+
     .about-right-text {
         font-size: 1.4em;
     }
@@ -257,12 +261,14 @@ h2 {
         height: 26em;
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
+
     .about-left-text {
         font-size: 4em;
     }
+
     .about-right-text {
         font-size: 1.2em;
     }
@@ -273,9 +279,11 @@ h2 {
         height: 24em;
         padding: 2em 2em 2em 2em;
     }
+
     .about-left-text {
         font-size: 3em;
     }
+
     .about-right-text {
         font-size: 1em;
     }
@@ -336,6 +344,7 @@ h2 {
     .contact {
         height: 20em;
     }
+
     .contact-left {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
