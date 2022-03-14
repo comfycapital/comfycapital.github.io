@@ -225,6 +225,10 @@ h2 {
 }
 
 @media screen and (max-width: 1000px) {
+    .about {
+        height: 30em;
+    }
+
     .about-top-text {
         font-size: 5em;
     }
@@ -248,7 +252,6 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .about {
-        height: 30em;
         padding: 3em;
     }
 
