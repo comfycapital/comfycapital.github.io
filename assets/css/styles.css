@@ -145,6 +145,7 @@ h2 {
     -ms-flex-align: end;
     align-items: flex-end;
     padding: 0 3em 2em 0;
+    background-color: #EFEEEC;
 }
 
 @media screen and (max-width: 600px) {
