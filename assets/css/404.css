@@ -1,10 +1,6 @@
 .sections {
-    height: 14em;
+    height: 35em;
     padding: 2em;
-}
-
-.sections-items {
-    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -16,4 +12,9 @@
     -ms-flex-pack: center;
     justify-content: center;
     gap: 2em;
+}
+
+.sections-items-404 {
+    font-family: PIXEARG_, Arial, Helvetica, sans-serif;
+    font-size: 8em;
 }
