@@ -106,7 +106,8 @@ h2 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 100vh;
+    height: 9vh;
+    min-height: 60px;
     gap: 2em;
     padding: 0 0 0 2em;
     border-left: 1px solid #dddcda;
@@ -200,18 +201,21 @@ h2 {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    padding: 4em;
     gap: 2em;
 }
 
 .about-top-text {
     font-size: 8em;
     text-align: left;
+    width: 100vw;
+    background-color: #f5f4f1;
+    padding: 4rem 4rem 0 4rem;
 }
 
 .about-bottom-text {
     font-size: 2em;
     text-align: right;
+    padding: 0 4rem 4rem 4rem;
 }
 
 @media screen and (max-width: 87.5rem) {
@@ -263,10 +267,6 @@ h2 {
 }
 
 @media screen and (max-width: 37.5rem) {
-    .about {
-        padding: 3em;
-    }
-
     .about-top-text {
         font-size: 3em;
     }
@@ -278,10 +278,6 @@ h2 {
 }
 
 @media screen and (max-width: 25rem) {
-    .about {
-        padding: 2em;
-    }
-
     .about-top-text {
         font-size: 3em;
     }
