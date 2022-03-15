@@ -112,6 +112,9 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+    .nav {
+        height: 11vh;
+    }
     .nav-icons {
         border-left: 0px;
     }
@@ -144,18 +147,18 @@ h2 {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    padding: 0 3em 2em 0;
+    padding: 2em 3em 2em 0;
     background-color: #EFEEEC;
 }
 
 @media screen and (max-width: 600px) {
+    .landing-page-flex {
+        height: 89vh;
+    }
     .header {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
         padding: 2em;
     }
 }
@@ -185,7 +188,7 @@ h2 {
 /* About */
 
 .about {
-    height: 40em;
+    height: 35em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -234,7 +237,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .about {
-        height: 30em;
+        height: 25em;
     }
 
     .about-top-text {
@@ -275,7 +278,6 @@ h2 {
 
 @media screen and (max-width: 400px) {
     .about {
-        height: 26em;
         padding: 2em;
     }
 
