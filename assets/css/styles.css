@@ -26,7 +26,6 @@ html {
 }
 
 body {
-    display: block;
     margin: 0;
     padding: 0;
     height: auto;
@@ -168,6 +167,7 @@ h2 {
 /* Header Img */
 
 .header-img {
+    max-height: 100%;
     display: block;
 }
 
@@ -181,6 +181,7 @@ h2 {
     }
 
     .header-img-phone {
+        max-height: 100%;
         display: block;
     }
 }
@@ -188,7 +189,7 @@ h2 {
 /* About */
 
 .about {
-    height: 60vh;
+    height: 35em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -199,8 +200,8 @@ h2 {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    padding: 8vh;
-    gap: 4vh;
+    padding: 4em;
+    gap: 2em;
 }
 
 .about-top-text {
@@ -237,7 +238,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .about {
-        height: 50vh;
+        height: 25em;
     }
 
     .about-top-text {
@@ -263,7 +264,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .about {
-        padding: 6vh;
+        padding: 3em;
     }
 
     .about-top-text {
@@ -278,7 +279,7 @@ h2 {
 
 @media screen and (max-width: 400px) {
     .about {
-        padding: 4vh;
+        padding: 2em;
     }
 
     .about-top-text {
@@ -294,17 +295,14 @@ h2 {
 /* Contact */
 
 .contact {
-    height: 28vh;
+    height: 14em;
     border-top: 1px solid #dddcda;
-    display: flex;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
 }
 
 .contact-left {
     height: 100%;
-    width: 50vw;
+    width: 50%;
+    float: left;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -324,8 +322,9 @@ h2 {
 
 .contact-right {
     height: 100%;
-    width: 50vw;
+    width: 50%;
     background-color: #303030;
+    float: right;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -356,7 +355,7 @@ h2 {
 /* Button */
 
 .button {
-    height: 20vh;
+    height: 14em;
     border-top: 1px solid #dddcda;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -384,14 +383,14 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .button {
-        height: 20vh;
+        height: 10em;
     }
 }
 
 /* Footer */
 
 .footer {
-    width: 100vw;
+    width: 100%;
     padding: 2em;
     border-top: 1px solid #dddcda;
     text-align: center;
