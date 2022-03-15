@@ -167,7 +167,6 @@ h2 {
 /* Header Img */
 
 .header-img {
-    max-height: 100%;
     display: block;
 }
 
@@ -181,7 +180,6 @@ h2 {
     }
 
     .header-img-phone {
-        max-height: 100%;
         display: block;
     }
 }
