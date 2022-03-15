@@ -293,14 +293,17 @@ h2 {
 /* Contact */
 
 .contact {
-    height: 14em;
+    height: 28vh;
     border-top: 1px solid #dddcda;
+    display: flex;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 
 .contact-left {
     height: 100%;
-    width: 50%;
-    float: left;
+    width: 50vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -320,9 +323,8 @@ h2 {
 
 .contact-right {
     height: 100%;
-    width: 50%;
+    width: 50vw;
     background-color: #303030;
-    float: right;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -353,7 +355,7 @@ h2 {
 /* Button */
 
 .button {
-    height: 14em;
+    height: 20vh;
     border-top: 1px solid #dddcda;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -381,14 +383,14 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .button {
-        height: 10em;
+        height: 20vh;
     }
 }
 
 /* Footer */
 
 .footer {
-    width: 100%;
+    width: 100vw;
     padding: 2em;
     border-top: 1px solid #dddcda;
     text-align: center;
