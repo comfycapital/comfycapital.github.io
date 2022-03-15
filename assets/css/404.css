@@ -1,6 +1,7 @@
 .sections {
     height: 35em;
     padding: 2em;
+    background-color: #EFEEEC;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
