@@ -1,3 +1,13 @@
+
+/* Colors
+
+Whiter : #f5f4f0
+White : #f0efeb
+Dark : #ebeae6
+Darker : #e0e0dc
+
+*/
+
 @font-face {
     font-family: PIXEARG_;
     src: url(https://comfycapital.github.io/assets/fonts/pixel_arial_11/PIXEARG_.TTF);
@@ -29,7 +39,7 @@ body {
     margin: 0;
     padding: 0;
     height: auto;
-    background-color: #f5f4f1;
+    background-color: #f5f4f0;
     color: #202020;
     opacity: 0;
     -o-transition: opacity 0.3s ease-in-out;
@@ -87,7 +97,7 @@ h2 {
     -ms-flex-align: center;
     align-items: center;
     padding: 0 2em 0 2em;
-    border-bottom: 1px solid #dddcda;
+    border-bottom: 1px solid #e0e0dc;
 }
 
 .nav-logo {
@@ -110,7 +120,7 @@ h2 {
     min-height: 60px;
     gap: 2em;
     padding: 0 0 0 2em;
-    border-left: 1px solid #dddcda;
+    border-left: 1px solid #e0e0dc;
 }
 
 @media screen and (max-width: 37.5rem) {
@@ -150,7 +160,7 @@ h2 {
     -ms-flex-align: end;
     align-items: flex-end;
     padding: 2em 3em 2em 0;
-    background-color: #EFEEEC;
+    background-color: #f0efeb;
 }
 
 @media screen and (max-width: 37.5rem) {
@@ -208,7 +218,7 @@ h2 {
     font-size: 7em;
     text-align: left;
     width: 100vw;
-    background-color: #f5f4f1;
+    background-color: #f5f4f0;
     padding: 4rem 4rem 0 6rem;
 }
 
@@ -298,7 +308,7 @@ h2 {
 
 .contact {
     height: 14em;
-    border-top: 1px solid #dddcda;
+    border-top: 1px solid #e0e0dc;
 }
 
 .contact-left {
@@ -358,14 +368,14 @@ h2 {
 
 .button {
     height: 14em;
-    border-top: 1px solid #dddcda;
+    border-top: 1px solid #e0e0dc;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
 
 .button:hover {
-    background-color: #e9e8e6;
+    background-color: #ebeae6;
 }
 
 .button-items {
@@ -394,6 +404,6 @@ h2 {
 .footer {
     width: 100%;
     padding: 2em;
-    border-top: 1px solid #dddcda;
+    border-top: 1px solid #e0e0dc;
     text-align: center;
 }
