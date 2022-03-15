@@ -187,7 +187,7 @@ h2 {
 /* About */
 
 .about {
-    height: 35em;
+    height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -198,8 +198,8 @@ h2 {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    padding: 4em;
-    gap: 2em;
+    padding: 8vh;
+    gap: 4vh;
 }
 
 .about-top-text {
@@ -236,7 +236,7 @@ h2 {
 
 @media screen and (max-width: 1000px) {
     .about {
-        height: 25em;
+        height: 50vh;
     }
 
     .about-top-text {
@@ -262,7 +262,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
     .about {
-        padding: 3em;
+        padding: 6vh;
     }
 
     .about-top-text {
@@ -277,7 +277,7 @@ h2 {
 
 @media screen and (max-width: 400px) {
     .about {
-        padding: 2em;
+        padding: 4vh;
     }
 
     .about-top-text {
