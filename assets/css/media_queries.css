@@ -1,0 +1,24 @@
+/*------------------------------------------*/
+ 
+/* Small screens - MOBILE */
+@media only screen and (max-width: 80vh) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ 
+/* Medium screens - TABLET */
+@media only screen and (min-width: 80.126vh) { } /* min-width 641px, medium screens */
+ 
+@media only screen and (min-width: 80.126vh) and (max-width: 128vh) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ 
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 128.126vh) { } /* min-width 1025px, large screens */
+ 
+@media only screen and (min-width: 128.126vh) and (max-width: 180vh) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+ 
+/* XLarge screens */
+@media only screen and (min-width: 180.126vh) { } /* min-width 1441px, xlarge screens */
+ 
+@media only screen and (min-width: 180.126vh) and (max-width: 240vh) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ 
+/* XXLarge screens */
+@media only screen and (min-width: 240.126vh) { } /* min-width 1921px, xlarge screens */
+ 
+/*------------------------------------------*/
