@@ -112,7 +112,7 @@ h2 {
     border-left: 1px solid #dddcda;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .nav {
         height: 11vh;
     }
@@ -152,7 +152,7 @@ h2 {
     background-color: #EFEEEC;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .landing-page-flex {
         height: 89vh;
     }
@@ -175,7 +175,7 @@ h2 {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 62.5rem) {
     .header-img {
         display: none;
     }
@@ -214,7 +214,7 @@ h2 {
     text-align: right;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 87.5rem) {
     .about-top-text {
         font-size: 7em;
     }
@@ -225,7 +225,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75rem) {
     .about-top-text {
         font-size: 6em;
     }
@@ -236,7 +236,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 62.5rem) {
     .about {
         height: 25em;
     }
@@ -251,7 +251,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 50rem) {
     .about-top-text {
         font-size: 4em;
     }
@@ -262,7 +262,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .about {
         padding: 3em;
     }
@@ -277,7 +277,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25rem) {
     .about {
         padding: 2em;
     }
@@ -343,7 +343,7 @@ h2 {
     background-color: #2A2A2A;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .contact-left {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -381,7 +381,7 @@ h2 {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .button {
         height: 10em;
     }
