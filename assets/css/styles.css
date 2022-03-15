@@ -76,7 +76,7 @@ h2 {
 
 .nav {
     height: 9vh;
-    min-height: 60px;
+    min-height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
