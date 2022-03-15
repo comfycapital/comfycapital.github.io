@@ -205,17 +205,17 @@ h2 {
 }
 
 .about-top-text {
-    font-size: 8em;
+    font-size: 7em;
     text-align: left;
     width: 100vw;
     background-color: #f5f4f1;
-    padding: 4rem 4rem 0 4rem;
+    padding: 4rem 4rem 0 6rem;
 }
 
 .about-bottom-text {
     font-size: 2em;
     text-align: right;
-    padding: 0 4rem 4rem 4rem;
+    padding: 0 6rem 4rem 4rem;
 }
 
 @media screen and (max-width: 87.5rem) {
@@ -258,33 +258,39 @@ h2 {
 @media screen and (max-width: 50rem) {
     .about-top-text {
         font-size: 4em;
+        padding: 4rem 4rem 0 4rem;
     }
 
     .about-bottom-text {
         text-align: right;
         font-size: 1.2em;
+        padding: 0 4rem 4rem 4rem;
     }
 }
 
 @media screen and (max-width: 37.5rem) {
     .about-top-text {
         font-size: 3em;
+        padding: 3rem 3rem 0 3rem;
     }
 
     .about-bottom-text {
         text-align: right;
         font-size: 1em;
+        padding: 0 3rem 3rem 3rem;
     }
 }
 
 @media screen and (max-width: 25rem) {
     .about-top-text {
         font-size: 3em;
+        padding: 2rem 2rem 0 2rem;
     }
 
     .about-bottom-text {
         text-align: right;
         font-size: 1em;
+        padding: 0 2rem 2rem 2rem;
     }
 }
 
