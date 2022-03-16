@@ -13,7 +13,7 @@
 .header__textdiv {
     height: 100%;
     background-color: #f0efeb;
-    padding: 2em 3em 2em 0;
+    padding: 2rem 3rem 2rem 0;
 }
 
 @media screen and (max-width: 37.5rem) {
@@ -22,7 +22,7 @@
     }
 
     .header__textdiv {
-        padding: 2em;
+        padding: 2rem;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
@@ -48,78 +48,78 @@
 /* About */
 
 .about {
-    height: 35em;
+    height: 35rem;
 }
 
 .about__toptext {
     width: 100vw;
     background-color: #f5f4f0;
     padding: 4rem 4rem 0 6rem;
-    font-size: 7em;
+    font-size: 7rem;
     text-align: left;
 }
 
 .about__bottomtext {
     padding: 0 6rem 4rem 4rem;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: right;
 }
 
 @media screen and (max-width: 87.5rem) {
     .about__toptext {
-        font-size: 7em;
+        font-size: 7rem;
     }
 
     .about__bottomtext {
-        font-size: 1.8em;
+        font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width: 75rem) {
     .about__toptext {
-        font-size: 6em;
+        font-size: 6rem;
     }
 
     .about__bottomtext {
-        font-size: 1.6em;
+        font-size: 1.6rem;
     }
 }
 
 @media screen and (max-width: 62.5rem) {
     .about {
-        height: 25em;
+        height: 25rem;
     }
 
     .about__toptext {
-        font-size: 5em;
+        font-size: 5rem;
     }
 
     .about__bottomtext {
-        font-size: 1.4em;
+        font-size: 1.4rem;
     }
 }
 
 @media screen and (max-width: 50rem) {
     .about__toptext {
         padding: 4rem 4rem 0 4rem;
-        font-size: 4em;
+        font-size: 4rem;
     }
 
     .about__bottomtext {
         padding: 0 4rem 4rem 4rem;
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
 @media screen and (max-width: 37.5rem) {
     .about__toptext {
         padding: 3rem 3rem 0 3rem;
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     .about__bottomtext {
         padding: 0 3rem 3rem 3rem;
-        font-size: 1em;
+        font-size: 1rem;
     }
 }
 
@@ -136,14 +136,14 @@
 /* Contact */
 
 .contact {
-    height: 14em;
+    height: 14rem;
     border-top: 1px solid #e0e0dc;
 }
 
 .contact__leftdiv {
     height: 100%;
     width: 50%;
-    padding: 2em;
+    padding: 2rem;
     float: left;
 }
 
