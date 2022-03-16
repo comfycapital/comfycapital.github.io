@@ -28,10 +28,15 @@ html {
 }
 
 *,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -108,25 +113,46 @@ li {
 
 .nav {
     height: 9vh;
-    min-height: 70px;
     padding: 0 2rem 0 2rem;
     border-bottom: 1px solid #e0e0dc;
 }
 
 .nav__iconsdiv {
     height: 9vh;
-    min-height: 70px;
     padding: 0 0 0 2rem;
     border-left: 1px solid #e0e0dc;
 }
 
 @media screen and (max-width: 37.5rem) {
-    .nav {
-        height: 11vh;
-    }
-
     .nav__iconsdiv {
         border-left: 0px;
+    }
+}
+
+@media screen and (max-height: 37.5rem) {
+    .nav {
+        height: 17vh;
+    }
+    .nav__iconsdiv {
+        height: 17vh;
+    }
+}
+
+@media screen and (max-height: 31.25rem) {
+    .nav {
+        height: 19vh;
+    }
+    .nav__iconsdiv {
+        height: 19vh;
+    }
+}
+
+@media screen and (max-height: 25rem) {
+    .nav {
+        height: 21vh;
+    }
+    .nav__iconsdiv {
+        height: 21vh;
     }
 }
 
