@@ -1,21 +1,10 @@
-.sections {
+.pagenotfound {
     height: 35em;
     padding: 2em;
     background-color: #f0efeb;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    gap: 2em;
 }
 
-.sections-items-404 {
+.pagenotfound__404 {
     font-family: PIXEARG_, Arial, Helvetica, sans-serif;
     font-size: 8em;
 }
