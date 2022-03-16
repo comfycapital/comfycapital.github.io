@@ -50,7 +50,8 @@ a,
 p,
 h1,
 h2,
-h4 {
+h4,
+li {
     color: #202020;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,6 +70,8 @@ h2 {
 }
 
 ul {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -78,6 +81,22 @@ ul {
     left: 0.03rem;
     font-family: PIXEARG_, Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
+}
+
+.hasTextAlign-left {
+    text-align: left;
+}
+
+.hasTextAlign-Center {
+    text-align: center;
+}
+
+.hasTextAlign-right {
+    text-align: right;
+}
+
+.hasTextAlign-justify {
+    text-align: justify;
 }
 
 /* Nav */
