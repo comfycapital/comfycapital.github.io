@@ -1,5 +1,5 @@
 .button {
-    height: 14em;
+    height: 14rem;
     border-top: 1px solid #e0e0dc;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 37.5rem) {
     .button {
-        height: 10em;
+        height: 10rem;
     }
 }
