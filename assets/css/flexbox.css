@@ -89,3 +89,11 @@
 .hasFlex-Gap-2rem {
     gap: 2rem;
 }
+
+.hasFlex-Gap-3rem {
+    gap: 3rem;
+}
+
+.hasFlex-Gap-4rem {
+    gap: 4rem;
+}
