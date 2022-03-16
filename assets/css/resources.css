@@ -69,7 +69,7 @@
 }
 
 .resources__maindiv__headtext {
-    width: 881px;
+    max-width: 881px;
 }
 
 .resources__maindiv__headtext__subtitle {
@@ -87,10 +87,10 @@
 
 @media screen and (max-width: 75rem) {
     .resources {
-        height: 50rem;
+        height: 55rem;
     }
     .resources__maindiv__headtext {
-        width: 643px;
+        max-width: 643px;
     }
 
     .monthly-returns-biggest {
@@ -109,10 +109,10 @@
 
 @media screen and (max-width: 50rem) {
     .resources {
-        height: 40rem;
+        height: 45rem;
     }
     .resources__maindiv__headtext {
-        width: 405px;
+        max-width: 405px;
     }
 
     .resources__maindiv__headtext__subtitle {
@@ -135,10 +135,10 @@
 
 @media screen and (max-width: 37.5rem) {
     .resources {
-        height: 30rem;
+        height: 35rem;
     }
     .resources__maindiv__headtext {
-        width: 336px;
+        max-width: 336px;
     }
 
     .resources__maindiv__headtext__subtitle {
