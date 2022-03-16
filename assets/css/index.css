@@ -56,13 +56,11 @@
     background-color: #f5f4f0;
     padding: 4rem 4rem 0 6rem;
     font-size: 7rem;
-    text-align: left;
 }
 
 .about__bottomtext {
     padding: 0 6rem 4rem 4rem;
     font-size: 2rem;
-    text-align: right;
 }
 
 @media screen and (max-width: 87.5rem) {
