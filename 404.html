@@ -18,7 +18,7 @@ permalink: /404.html
   <meta property="og:description" content="Investment, made comfier." />
   <meta property="og:url" content="https://comfycapital.github.io/" />
   <meta property="og:title" content="Comfy Capital" />
-  <meta property="og:image" content="https://comfycapital.github.io/images/img-pixel-web.jpg" />
+  <meta property="og:image" content="https://comfycapital.github.io/images/img-web.jpg" />
   <link rel="icon" href="https://comfycapital.github.io/images/favicon.ico" />
   <link rel="apple-touch-icon" href="https://comfycapital.github.io/images/apple-touch-icon.png" />
 
@@ -26,10 +26,12 @@ permalink: /404.html
   <meta property="twitter:url" content="https://comfycapital.github.io/" />
   <meta property="twitter:title" content="Comfy Capital" />
   <meta property="twitter:description" content="Investment, made comfier." />
-  <meta property="twitter:image" content="https://comfycapital.github.io/images/img-pixel-web.jpg" />
+  <meta property="twitter:image" content="https://comfycapital.github.io/images/img-web.jpg" />
 
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/404.css">
+  <link rel="stylesheet" href="/assets/css/flexbox.css">
+  <link rel="stylesheet" href="/assets/css/button.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1MDGGL57E"></script>
@@ -48,27 +50,29 @@ permalink: /404.html
 
 <body onload="document.body.style.opacity='1'">
 
-  <nav class="nav">
+  <nav class="nav hasFlex-Justifycontent-Spacebetween hasFlex-Alignitems-Center">
     <a href="/">
-      <div class="nav-logo">
-        <div class="nav-logo-pixel"><img src="/images/logo_pixel_25px.png" alt></div>
-      </div>
+      <img src="/images/logo_pixel_25px.png" alt>
     </a>
-    <div class="nav-icons">
-      <a href="https://twitter.com/comfycapital" target="_blank"><img src="/images/twitter.svg" alt></a>
-      <a href="/resources"><img src="/images/data_25px.png" alt></a>
+    <div class="nav__iconsdiv hasFlex-Justifycontent-Spaceevenly hasFlex-Alignitems-Center hasFlex-Gap-2em">
+      <a href="https://twitter.com/comfycapital" target="_blank">
+        <img src="/images/twitter.svg" alt>
+      </a>
+      <a href="/resources">
+        <img src="/images/data_25px.png" alt>
+      </a>
     </div>
   </nav>
 
-  <section class="sections">
-    <h1 class="sections-items-404">404</h1>
+  <section class="pagenotfound hasFlex-Justifycontent-Center hasFlex-Alignitems-Center">
+    <h1 class="pagenotfound__404">404</h1>
     <h1>Page not found</h1>
     <h4>The page you were looking for has been removed, renamed, or did not exist in the first place.</h4>
   </section>
 
-  <div class="button">
-    <a href="https://comfycapital.github.io/index.html">
-      <div class="button-items">
+  <div class="button hasFlex-Justifycontent-Center hasFlex-Alignitems-Center">
+    <a href="/">
+      <div class="button__textdiv">
         <h1>Home</h1>
       </div>
     </a>
