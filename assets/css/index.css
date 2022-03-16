@@ -1,0 +1,171 @@
+/* landing Page */
+
+.landing-page {
+    height: 100vh;
+}
+
+/* Header */
+
+.header {
+    height: 91vh;
+}
+
+.header__textdiv {
+    height: 100%;
+    background-color: #f0efeb;
+    padding: 2em 3em 2em 0;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .header {
+        height: 89vh;
+    }
+
+    .header__textdiv {
+        padding: 2em;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+/* Header Img */
+
+.header__imgsmalldevices {
+    display: none;
+}
+
+@media screen and (max-width: 62.5rem) {
+    .header__img {
+        display: none;
+    }
+
+    .header__imgsmalldevices {
+        display: block;
+    }
+}
+
+/* About */
+
+.about {
+    height: 35em;
+}
+
+.about__toptext {
+    width: 100vw;
+    background-color: #f5f4f0;
+    padding: 4rem 4rem 0 6rem;
+    font-size: 7em;
+    text-align: left;
+}
+
+.about__bottomtext {
+    padding: 0 6rem 4rem 4rem;
+    font-size: 2em;
+    text-align: right;
+}
+
+@media screen and (max-width: 87.5rem) {
+    .about__toptext {
+        font-size: 7em;
+    }
+
+    .about__bottomtext {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 75rem) {
+    .about__toptext {
+        font-size: 6em;
+    }
+
+    .about__bottomtext {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 62.5rem) {
+    .about {
+        height: 25em;
+    }
+
+    .about__toptext {
+        font-size: 5em;
+    }
+
+    .about__bottomtext {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    .about__toptext {
+        padding: 4rem 4rem 0 4rem;
+        font-size: 4em;
+    }
+
+    .about__bottomtext {
+        padding: 0 4rem 4rem 4rem;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 37.5rem) {
+    .about__toptext {
+        padding: 3rem 3rem 0 3rem;
+        font-size: 3em;
+    }
+
+    .about__bottomtext {
+        padding: 0 3rem 3rem 3rem;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    .about__toptext {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .about__bottomtext {
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+
+/* Contact */
+
+.contact {
+    height: 14em;
+    border-top: 1px solid #e0e0dc;
+}
+
+.contact__leftdiv {
+    height: 100%;
+    width: 50%;
+    padding: 2em;
+    float: left;
+}
+
+.contact__rightdiv {
+    height: 100%;
+    width: 50%;
+    background-color: #303030;
+    float: right;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.contact__rightdiv:hover {
+    background-color: #2A2A2A;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .contact__leftdiv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
