@@ -16,6 +16,15 @@
     justify-content: flex-end;
 }
 
+.hasFlex-Justifycontent-Flexstart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
 .hasFlex-Justifycontent-Spacearound {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,7 +73,15 @@
     align-items: flex-end;
 }
 
+.hasFlex-Alignitems-Flexstart {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
 .hasFlex-Alignitems-Stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
 }
 
