@@ -63,13 +63,17 @@
     height: 60rem;
 }
 
-.resources__subtitle {
-    font-size: 3rem;
-}
-
 .resources__maindiv {
     height: 100%;
     padding: 2rem;
+}
+
+.resources__maindiv__headtext {
+    width: 881px;
+}
+
+.resources__maindiv__headtext__subtitle {
+    font-size: 3rem;
 }
 
 .monthly-returns-biggest {
@@ -84,6 +88,9 @@
 @media screen and (max-width: 75rem) {
     .resources {
         height: 50rem;
+    }
+    .resources__maindiv__headtext {
+        width: 643px;
     }
 
     .monthly-returns-biggest {
@@ -104,8 +111,11 @@
     .resources {
         height: 40rem;
     }
+    .resources__maindiv__headtext {
+        width: 405px;
+    }
 
-    .resources__subtitle {
+    .resources__maindiv__headtext__subtitle {
         font-size: 2rem;
     }
 
@@ -127,8 +137,11 @@
     .resources {
         height: 30rem;
     }
+    .resources__maindiv__headtext {
+        width: 336px;
+    }
 
-    .resources__subtitle {
+    .resources__maindiv__headtext__subtitle {
         font-size: 1.4rem;
     }
 
