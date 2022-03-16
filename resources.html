@@ -14,7 +14,7 @@
   <meta property="og:description" content="Investment, made comfier." />
   <meta property="og:url" content="https://comfycapital.github.io/" />
   <meta property="og:title" content="Comfy Capital" />
-  <meta property="og:image" content="https://comfycapital.github.io/images/img-pixel-web.jpg" />
+  <meta property="og:image" content="https://comfycapital.github.io/images/img-web.jpg" />
   <link rel="icon" href="https://comfycapital.github.io/images/favicon.ico" />
   <link rel="apple-touch-icon" href="https://comfycapital.github.io/images/apple-touch-icon.png" />
 
@@ -22,10 +22,12 @@
   <meta property="twitter:url" content="https://comfycapital.github.io/" />
   <meta property="twitter:title" content="Comfy Capital" />
   <meta property="twitter:description" content="Investment, made comfier." />
-  <meta property="twitter:image" content="https://comfycapital.github.io/images/img-pixel-web.jpg" />
+  <meta property="twitter:image" content="https://comfycapital.github.io/images/img-web.jpg" />
 
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/resources.css">
+  <link rel="stylesheet" href="/assets/css/flexbox.css">
+  <link rel="stylesheet" href="/assets/css/button.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1MDGGL57E"></script>
@@ -44,45 +46,48 @@
 
 <body onload="document.body.style.opacity='1'">
 
-  <nav class="nav">
+  <nav class="nav hasFlex-Justifycontent-Spacebetween hasFlex-Alignitems-Center">
     <a href="/">
-      <div class="nav-logo">
-        <div class="nav-logo-pixel"><img src="/images/logo_pixel_25px.png" alt></div>
-      </div>
+      <img src="/images/logo_pixel_25px.png" alt>
     </a>
-    <div class="nav-icons">
-      <a href="https://twitter.com/comfycapital" target="_blank"><img src="/images/twitter.svg" alt></a>
-      <a href="/resources"><img src="/images/data_25px.png" alt></a>
+    <div class="nav__iconsdiv hasFlex-Justifycontent-Spaceevenly hasFlex-Alignitems-Center hasFlex-Gap-2em">
+      <a href="https://twitter.com/comfycapital" target="_blank">
+        <img src="/images/twitter.svg" alt>
+      </a>
+      <a href="/resources">
+        <img src="/images/data_25px.png" alt>
+      </a>
     </div>
   </nav>
 
   <section class="resources">
-    <div class="items-resources">
-      <h2 class="page-title">Performance Summary</h2>
-      <h1 class="page-sub-title">Comfy Capital Month-over-month Returns</h1>
-      <div class="data">
+    <div
+      class="resources__maindiv hasFlex-Justifycontent-Center hasFlex-Alignitems-Center hasFlex-Direction-Column hasFlex-Gap-2em">
+      <h2 class="resources__title">Performance Summary</h2>
+      <h1 class="resources__subtitle">Comfy Capital Month-over-month Returns</h1>
+      <div class="resources__data">
         <iframe width="881" height="545" seamless frameborder="0" scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRISN5wAXzql3pW4IlTLSJ5HpiOz-UQq3lya8ulAsYMUzfx93xRBb113ns9F-NR8LvSb2aRqe3ENd5s/pubchart?oid=94946814&amp;format=interactive"
-          class="monthly-returns-full"></iframe>
+          class="monthly-returns-biggest"></iframe>
 
         <iframe width="643" height="397" seamless frameborder="0" scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSG1e-gYx5rk0bLtMcdbh32iBaNr1jVh6P3oKqoMcMO5ROia28SStjz6dIc1sVyqhB6ifR5QhbSUtVy/pubchart?oid=1747344706&amp;format=interactive"
-          class="monthly-returns-1200"></iframe>
+          class="monthly-returns-big"></iframe>
 
         <iframe width="405" height="250" seamless frameborder="0" scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnAqOK1OSwhQPyj_cPnFkWCi4gWMRd60Jau6BfVgZYfa8gpuOV1dGVlEIfiJ-8b6oYlAKru8-0WtFX/pubchart?oid=934155940&amp;format=interactive"
-          class="monthly-returns-800"></iframe>
+          class="monthly-returns-small"></iframe>
 
         <iframe width="336" height="207" seamless frameborder="0" scrolling="no"
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWR-O6nE177v4gefq_S8e20QWzz8YeZocneJgL1lMilo-aqJtTAPomIByaEkVMOKdemvTqis8iMErS/pubchart?oid=1086785666&amp;format=interactive"
-          class="monthly-returns-600"></iframe>
+          class="monthly-returns-smallest"></iframe>
       </div>
     </div>
   </section>
 
-  <div class="button">
+  <div class="button hasFlex-Justifycontent-Center hasFlex-Alignitems-Center">
     <a href="/">
-      <div class="button-items">
+      <div class="button__textdiv">
         <h1>Home</h1>
       </div>
     </a>
