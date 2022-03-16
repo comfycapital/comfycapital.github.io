@@ -14,6 +14,8 @@
 
 .resources__header__right {
     height: 100%;
+    width: 100%;
+    min-width: 300px;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -22,29 +24,38 @@
 }
 
 .resources__header__right__titleli {
-    height: 100%;
     padding: 2rem 4rem;
 }
 
 .resources__header__right__li {
-    height: 100%;
     border-top: 1px solid #e0e0dc;
     padding: 2rem 4rem;
 }
 
 @media screen and (max-width: 75rem) {
-    .resources__header__left {
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
+    .resources__header__right__titleli {
+        padding: 2rem;
     }
 
-    .resources__header__right {
-        -webkit-box-flex: 2;
-        -ms-flex: 2;
-        flex: 2;
+    .resources__header__right__li {
+        padding: 2rem;
     }
 }
+
+@media screen and (max-width: 37.5rem) {
+    .resources__header {
+        height: 50rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .resources__header__right__titleli {
+        border-top: 1px solid #e0e0dc;
+    }
+}
+
 
 /* Resources Data */
 
@@ -58,7 +69,7 @@
 
 .resources__maindiv {
     height: 100%;
-    padding: 0 2rem 0 2rem;
+    padding: 2rem;
 }
 
 .monthly-returns-biggest {
