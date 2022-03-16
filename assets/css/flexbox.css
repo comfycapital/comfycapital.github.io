@@ -64,6 +64,10 @@
     align-items: flex-end;
 }
 
+.hasFlex-Alignitems-Stretch {
+    align-items: stretch;
+}
+
 .hasFlex-Direction-Row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -78,6 +82,10 @@
     flex-direction: column;
 }
 
-.hasFlex-Gap-2em {
-    gap: 2em;
+.hasFlex-Gap-1rem {
+    gap: 1rem;
+}
+
+.hasFlex-Gap-2rem {
+    gap: 2rem;
 }
