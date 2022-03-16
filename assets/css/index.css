@@ -35,13 +35,23 @@
     display: none;
 }
 
-@media screen and (max-width: 62.5rem) {
+@media (orientation: portrait) {
     .header__img {
         display: none;
     }
 
     .header__imgsmalldevices {
         display: block;
+    }
+}
+
+@media (orientation: landscape) {
+    .header__img {
+        display: block;
+    }
+
+    .header__imgsmalldevices {
+        display: none;
     }
 }
 
