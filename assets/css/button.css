@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 37.5rem) {
+@media screen and (max-width: 62.5rem) {
     .button {
         height: 10rem;
     }
