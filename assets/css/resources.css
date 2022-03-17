@@ -390,7 +390,7 @@ bar[data-hover]::before {
     content: attr(data-hover);
     position: absolute;
     right: 0%;
-    top: -10%;
+    bottom: 105%;
     opacity: 0;
     background: #e0e0dc;
     color: #202020;
