@@ -6,5 +6,5 @@
 
 .pagenotfound__404 {
     font-family: PIXEARG_, Arial, Helvetica, sans-serif;
-    font-size: 8rem;
+    font-size: var(--font-size-8);
 }
