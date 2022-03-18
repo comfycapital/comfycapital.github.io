@@ -498,15 +498,15 @@ td:nth-child(even) {
 }
 
 .exposure__na__bar {
-    width: 60.56%;
+    width: 60.95%;
 }
 
 .exposure__eu__bar {
-    width: 34.44%;
+    width: 0.30%;
 }
 
 .exposure__as__bar {
-    width: 5%;
+    width: 38.75%;
 }
 
 @media screen and (max-width: 75rem) {
