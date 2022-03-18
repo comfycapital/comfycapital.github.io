@@ -24,7 +24,7 @@
   <meta property="twitter:description" content="Investment, made comfier." />
   <meta property="twitter:image" content="/images/img-web.jpg" />
 
-  <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+  <link rel="stylesheet" href="https://unpkg.com/open-props" />
   <link rel="stylesheet" href="/assets/css/normalize.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/resources.css">
@@ -79,123 +79,162 @@
     </div>
   </div>
 
- <div class="charttables">
+  <div class="chart-and-table">
 
-  <div class="center-columnchart">
-    <div class="headtext hasFlex-Justifycontent-Spacebetween hasFlex-Direction-Column hasFlex-Gap-1perc">
-      <h2 class="headtext__title hasTextAlign-left">Performance Summary</h2>
-      <h1 class="headtext__subtitle hasTextAlign-left">Comfy Capital Month-over-month Returns</h1>
-      <h2 class="headtext__date hasTextAlign-left">As of 01/21/2022</h2>
+    <div class="headtext-and-columnchart">
+      <div class="headtext hasFlex-Justifycontent-Spacebetween hasFlex-Direction-Column hasFlex-Gap-1perc">
+        <h2 class="headtext__title hasTextAlign-left">Performance Summary</h2>
+        <h1 class="headtext__subtitle hasTextAlign-left">Comfy Capital Month-over-month Returns</h1>
+        <h2 class="headtext__date hasTextAlign-left">As of 01/21/2022</h2>
+      </div>
+      <div class="columnchart">
+        <div class="vaxis">
+          <div class="vaxis__data">3.00%</div>
+          <div class="vaxis__data">2.00%</div>
+          <div class="vaxis__data">1.00%</div>
+          <div class="vaxis__data">0.00%</div>
+        </div>
+        <div class="data-and-haxis">
+          <div class="data">
+            <div class="data__bglines">
+              <div class="data__bglineheavy"></div>
+              <div class="data__bglinelight"></div>
+              <div class="data__bglinelight"></div>
+              <div class="data__bglineheavy"></div>
+              <div class="data__bglinelight"></div>
+              <div class="data__bglinelight"></div>
+              <div class="data__bglineheavy"></div>
+            </div>
+            <div class="data__vbars">
+              <bar class="data__vbar january"></bar>
+              <bar class="data__vbar february" data-hover="2.82%"></bar>
+              <bar class="data__vbar march"></bar>
+              <bar class="data__vbar april"></bar>
+              <bar class="data__vbar may"></bar>
+              <bar class="data__vbar june"></bar>
+              <bar class="data__vbar july"></bar>
+              <bar class="data__vbar august"></bar>
+              <bar class="data__vbar september"></bar>
+              <bar class="data__vbar october"></bar>
+              <bar class="data__vbar november"></bar>
+              <bar class="data__vbar december"></bar>
+            </div>
+          </div>
+          <div class="haxis">
+            <div class="haxis__data">Jan</div>
+            <div class="haxis__data">Feb</div>
+            <div class="haxis__data">Mar</div>
+            <div class="haxis__data">Apr</div>
+            <div class="haxis__data">May</div>
+            <div class="haxis__data">June</div>
+            <div class="haxis__data">July</div>
+            <div class="haxis__data">Aug</div>
+            <div class="haxis__data">Sep</div>
+            <div class="haxis__data">Oct</div>
+            <div class="haxis__data">Nov</div>
+            <div class="haxis__data">Dec</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="columnchart">
-      <div class="vaxis">
-        <div class="vaxis__data">3.00%</div>
-        <div class="vaxis__data">2.00%</div>
-        <div class="vaxis__data">1.00%</div>
-        <div class="vaxis__data">0.00%</div>
-      </div>
-      <div class="data-and-haxis">
-        <div class="data">
-          <div class="data__bglines">
-            <div class="data__bglineheavy"></div>
-            <div class="data__bglinelight"></div>
-            <div class="data__bglinelight"></div>
-            <div class="data__bglineheavy"></div>
-            <div class="data__bglinelight"></div>
-            <div class="data__bglinelight"></div>
-            <div class="data__bglineheavy"></div>
-          </div>
-          <div class="data__vbars">
-            <bar class="data__vbar january"></bar>
-            <bar class="data__vbar february" data-hover="2.82%"></bar>
-            <bar class="data__vbar march"></bar>
-            <bar class="data__vbar april"></bar>
-            <bar class="data__vbar may"></bar>
-            <bar class="data__vbar june"></bar>
-            <bar class="data__vbar july"></bar>
-            <bar class="data__vbar august"></bar>
-            <bar class="data__vbar september"></bar>
-            <bar class="data__vbar october"></bar>
-            <bar class="data__vbar november"></bar>
-            <bar class="data__vbar december"></bar>
-          </div>
-        </div>
-        <div class="haxis">
-          <div class="haxis__data">Jan</div>
-          <div class="haxis__data">Feb</div>
-          <div class="haxis__data">Mar</div>
-          <div class="haxis__data">Apr</div>
-          <div class="haxis__data">May</div>
-          <div class="haxis__data">June</div>
-          <div class="haxis__data">July</div>
-          <div class="haxis__data">Aug</div>
-          <div class="haxis__data">Sep</div>
-          <div class="haxis__data">Oct</div>
-          <div class="haxis__data">Nov</div>
-          <div class="haxis__data">Dec</div>
-        </div>
-      </div>
+
+    <div class="table">
+      </table>
+      <table class="table">
+        <tr class="table__row">
+          <th class="table__row">Month-over-month Returns</th>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">January</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">February</td>
+          <td class="table__cell">2.82%</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">March</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">April</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">May</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">June</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">July</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">August</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">September</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">October</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">November</td>
+          <td class="table__cell">No data</td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell">December</td>
+          <td class="table__cell">No data</td>
+        </tr>
+      </table>
     </div>
   </div>
 
-  <div class="table">
-    </table>
-    <table class="table">
-      <tr class="table__row">
-      <th class="table__row">Month-over-month Returns</th>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">January</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">February</td>
-        <td class="table__cell">2.82%</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">March</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">April</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">May</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">June</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">July</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">August</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">September</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">October</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">November</td>
-        <td class="table__cell">No data</td>
-      </tr>
-      <tr class="table__row">
-        <td class="table__cell">December</td>
-        <td class="table__cell">No data</td>
-      </tr>
-    </table>
-  </div>
+  <div class="areasofinterest-and-regionalexposure hasFlex-Justifycontent-Spacebetween">
+    <div
+      class="areasofinterest hasFlex-Justifycontent-Spacebetween hasFlex-Alignitems-Flexstart hasFlex-Direction-Column">
+      <div class="areasofinterest__title">Areas of Interest</div>
+      
+      <div class="areasofinterest__aoi hasFlex-Justifycontent-Spacebetween hasFlex-Alignitems-Flexstart hasFlex-Direction-Column">
+      <div>Digital commodities</div>
+      <div>High-performance computing</div>
+      <div>Blockchain technologies</div>
+    </div>
+    </div>
 
-</div> 
+    <div class="regionalexposure hasFlex-Justifycontent-Spacebetween hasFlex-Alignitems-Flexstart hasFlex-Direction-Column">
+      <div class="regionalexposure__title">Regional Exposure</div>
+      <div class="regionalexposure__regions hasFlex-Justifycontent-Spacebetween hasFlex-Direction-Row">
+        <div class="regions hasFlex-Justifycontent-Spacebetween hasFlex-Direction-Column">
+          <div class="region hasFlex-Justifycontent-Flexstart hasFlex-Alignitems-Center">North America</div>
+          <div class="region hasFlex-Justifycontent-Flexstart hasFlex-Alignitems-Center">Europe</div>
+          <div class="region hasFlex-Justifycontent-Flexstart hasFlex-Alignitems-Center">Asia</div>
+        </div>
+        <div class="exposure hasFlex-Justifycontent-Spacebetween hasFlex-Direction-Column">
+          <div class="exposure__div hasFlex-Justifycontent-Flexend hasFlex-Alignitems-Center">60.56%
+            <div class="exposure__bar exposure__na__bar">
+            </div>
+          </div>
+          <div class="exposure__div hasFlex-Justifycontent-Flexend hasFlex-Alignitems-Center">34.44%
+            <div class="exposure__bar exposure__eu__bar">
+            </div>
+          </div>
+          <div class="exposure__div hasFlex-Justifycontent-Flexend hasFlex-Alignitems-Center">5%
+            <div class="exposure__bar exposure__as__bar">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
   <div>
     <a href="/" class="button hasFlex-Justifycontent-Center hasFlex-Alignitems-Center">
