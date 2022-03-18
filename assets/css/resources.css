@@ -473,7 +473,7 @@ td:nth-child(even) {
 }
 
 .region {
-    height: 10%;
+    height: 20%;
 }
 
 .exposure {
@@ -481,7 +481,7 @@ td:nth-child(even) {
 }
 
 .exposure__div {
-    height: 10%;
+    height: 20%;
     background-color: #e0e0dc;
     display: flex;
     justify-content: flex-end;
