@@ -107,6 +107,10 @@ li {
     width: 100%;
 }
 
+th {
+    font-weight: normal;
+}
+
 .usesPixelfont {
     position: relative;
     left: 0.03em;
