@@ -323,8 +323,9 @@
 
 @media screen and (max-width: 50rem) {
     .chart-and-table {
-        height: 60rem;
+        height: 70rem;
     }
+
     .columnchart {
         gap: 2%;
     }
@@ -340,8 +341,9 @@
 
 @media screen and (max-width: 37.5rem) {
     .chart-and-table {
-        height: 50rem;
+        height: 56rem;
     }
+
     .columnchart {
         gap: 1%;
     }
@@ -408,15 +410,6 @@ td:nth-child(even) {
     width: 50%;
 }
 
-@media screen and (max-width: 75rem) {
-
-    td:nth-child(odd),
-    td:nth-child(even),
-    .table__row {
-        padding: 1% 2%;
-    }
-}
-
 /* Areas of interest and Regional exposure */
 
 .areasofinterest-and-regionalexposure {
@@ -431,7 +424,7 @@ td:nth-child(even) {
     flex: 1;
     background-color: #f0efeb;
     padding: 2%;
-    gap: 10%;
+    gap: 20%;
 }
 
 .areasofinterest__title {
@@ -450,7 +443,7 @@ td:nth-child(even) {
     flex: 1;
     background-color: #f0efeb;
     padding: 2%;
-    gap: 10%;
+    gap: 20%;
 }
 
 .regionalexposure__title {
