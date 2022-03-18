@@ -73,88 +73,59 @@
 
 .about {
     height: 35rem;
+    padding: 0 6rem;
 }
 
 .about__toptext {
-    width: 100vw;
     background-color: #f5f4f0;
-    padding: 0 6rem;
     font-size: 7rem;
 }
 
 .about__bottomtext {
-    padding: 0 6rem;
-    font-size: 2rem;
-}
-
-@media screen and (max-width: 87.5rem) {
-    .about__toptext {
-        font-size: 7rem;
-    }
-
-    .about__bottomtext {
-        font-size: 1.8rem;
-    }
+    font-size: var(--font-size-5);
 }
 
 @media screen and (max-width: 75rem) {
     .about__toptext {
-        font-size: 6rem;
+        font-size: var(--font-size-8);
     }
-
     .about__bottomtext {
-        font-size: 1.6rem;
+        font-size: var(--font-size-4);
     }
 }
 
 @media screen and (max-width: 62.5rem) {
     .about {
         height: 30rem;
+        padding: 0 4rem;
     }
 
     .about__toptext {
-        font-size: 5rem;
+        font-size: var(--font-size-7);
     }
 
     .about__bottomtext {
-        font-size: 1.4rem;
+        font-size: var(--font-size-3);
     }
 }
 
 @media screen and (max-width: 50rem) {
     .about {
         height: 25rem;
+        padding: 0 3rem;
     }
 
     .about__toptext {
-        padding: 0 4rem;
-        font-size: 4rem;
+        font-size: var(--font-size-6);
     }
 
     .about__bottomtext {
-        padding: 0 4rem;
-        font-size: 1.2rem;
+        font-size: var(--font-size-2);
     }
 }
 
 @media screen and (max-width: 37.5rem) {
-    .about__toptext {
-        padding: 0 3rem;
-        font-size: 3rem;
-    }
-
-    .about__bottomtext {
-        padding: 0 3rem;
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 25rem) {
-    .about__toptext {
-        padding: 0 2rem;
-    }
-
-    .about__bottomtext {
+    .about {
         padding: 0 2rem;
     }
 }
