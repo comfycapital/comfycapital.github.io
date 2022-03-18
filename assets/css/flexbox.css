@@ -114,3 +114,23 @@
 .hasFlex-Gap-4rem {
     gap: 4rem;
 }
+
+.hasFlex-Gap-1perc {
+    gap: 1%;
+}
+
+.hasFlex-Gap-2perc {
+    gap: 2%;
+}
+
+.hasFlex-Gap-3perc {
+    gap: 3%;
+}
+
+.hasFlex-Gap-4perc {
+    gap: 4%;
+}
+
+.hasFlex-Gap-5perc {
+    gap: 5%;
+}
