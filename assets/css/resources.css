@@ -48,12 +48,12 @@
 
     .resources__header__right__titleli {
         border-top: 1px solid #e0e0dc;
-        padding:  2% 5%;
+        padding: 2% 5%;
     }
 
     .resources__header__right__li {
         border-top: 1px solid #e0e0dc;
-        padding:  2% 5%;
+        padding: 2% 5%;
     }
 }
 
@@ -87,8 +87,6 @@
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 6%;
-    width: 100%;
-    height: 100%;
     -webkit-box-flex: 2;
     -ms-flex: 2;
     flex: 2;
@@ -291,7 +289,7 @@
 
 @media screen and (max-width: 75rem) {
     .chart-and-table {
-        height: 70rem;
+        height: 80rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -300,21 +298,7 @@
     }
 
     .headtext-and-columnchart {
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
         flex: 1;
-    }
-
-    .headtext__title {
-        font-size: var(--font-size-4);
-    }
-
-    .headtext__subtitle {
-        font-size: var(--font-size-5);
-    }
-
-    .headtext__date {
-        font-size: var(--font-size-4);
     }
 
     .columnchart {
@@ -331,17 +315,6 @@
 }
 
 @media screen and (max-width: 62.5rem) {
-    .headtext__title {
-        font-size: var(--font-size-3);
-    }
-
-    .headtext__subtitle {
-        font-size: var(--font-size-4);
-    }
-
-    .headtext__date {
-        font-size: var(--font-size-3);
-    }
 
     .columnchart {
         gap: 3%;
@@ -349,19 +322,9 @@
 }
 
 @media screen and (max-width: 50rem) {
-
-    .headtext__title {
-        font-size: var(--font-size-2);
+    .chart-and-table {
+        height: 60rem;
     }
-
-    .headtext__subtitle {
-        font-size: var(--font-size-3);
-    }
-
-    .headtext__date {
-        font-size: var(--font-size-2);
-    }
-
     .columnchart {
         gap: 2%;
     }
@@ -376,6 +339,9 @@
 }
 
 @media screen and (max-width: 37.5rem) {
+    .chart-and-table {
+        height: 50rem;
+    }
     .columnchart {
         gap: 1%;
     }
@@ -414,12 +380,12 @@ table {
 }
 
 td:nth-child(odd) {
-    padding: 2%;
+    padding: 2% 3%;
     text-align: left;
 }
 
 td:nth-child(even) {
-    padding: 2%;
+    padding: 2% 3%;
     text-align: right;
 }
 
@@ -434,7 +400,7 @@ td:nth-child(even) {
 
 .table__row {
     text-align: left;
-    padding: 2%;
+    padding: 2% 3%;
 }
 
 .table__cell {
@@ -443,14 +409,13 @@ td:nth-child(even) {
 }
 
 @media screen and (max-width: 75rem) {
-    table {
-        height: 50%;
-    }
-    td:nth-child(odd), td:nth-child(even), .table__row {
+
+    td:nth-child(odd),
+    td:nth-child(even),
+    .table__row {
         padding: 1% 2%;
     }
 }
-
 
 /* Areas of interest and Regional exposure */
 
@@ -556,5 +521,13 @@ td:nth-child(even) {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+
+    .areasofinterest {
+        padding: 4%;
+    }
+
+    .regionalexposure {
+        padding: 4%;
     }
 }
