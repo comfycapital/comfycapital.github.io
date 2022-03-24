@@ -27,21 +27,21 @@
 }
 
 @font-face {
-    font-family: HelveticaNowText-Regular-TTF;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.ttf);
+    font-family: HelveticaNowText-Regular-WOFF;
+    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.woff);
 }
 
 @font-face {
-    font-family: HelveticaNowText-Medium-TTF;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Medium.ttf);
+    font-family: HelveticaNowText-Medium-WOFF;
+    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Medium.woff);
 }
 
 .helvetica-regular {
-    font-family: HelveticaNowText-Regular-WOFF2, HelveticaNowText-Regular-TTF, Arial, Helvetica, sans-serif;
+    font-family: HelveticaNowText-Regular-WOFF2, HelveticaNowText-Regular-WOFF, Arial, Helvetica, sans-serif;
 }
 
 .helvetica-medium {
-    font-family: HelveticaNowText-Medium-WOFF2, HelveticaNowText-Medium-TTF, Arial, Helvetica, sans-serif;
+    font-family: HelveticaNowText-Medium-WOFF2, HelveticaNowText-Medium-WOFF, Arial, Helvetica, sans-serif;
 }
 
 .font-xs {
