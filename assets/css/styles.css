@@ -96,7 +96,7 @@ div {
 }
 
 .nav__mobile {
-    height: 30vh;
+    position: absolute;
     width: 100%;
     display: none !important;
 }
@@ -114,6 +114,34 @@ div {
 }
 
 @media (max-width: 768px) {
+    nav {
+        padding: 2rem 2rem 0 !important;
+    }
+}
+
+@media (orientation: landscape) {
+    .nav__desktop {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .nav__mobile {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    nav {
+        padding: 2rem 2rem 0 !important;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    body {
+        position: relative;
+    }
+
     .nav__desktop {
         display: none !important;
     }
@@ -150,7 +178,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        height: 70vh;
+        padding: 0 2rem 2rem !important;
     }
 
     .header__right-text {
@@ -161,6 +189,24 @@ header {
 @media (max-width: 640px) {
     .header__right-text {
         width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    header {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    header {
+        padding: 0 2rem 2rem !important;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    header {
+        height: 100vh;
     }
 }
 
@@ -182,4 +228,26 @@ footer {
 .footer-pixel-asset {
     -ms-flex-negative: 0;
     flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 2rem !important;
+    }
+}
+
+@media (max-height: 640px) {
+    footer {
+        padding: 2rem !important;
+    }
+
+    .footer__nav {
+        gap: 1rem !important;
+    }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+    footer {
+        padding: 2rem !important;
+    }
 }
