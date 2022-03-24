@@ -1,0 +1,231 @@
+/* Resources */
+
+@media (max-width: 1280px) {
+    .details {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .details {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .details {
+        width: 90%;
+    }
+}
+
+@media (max-width: 640px) {
+    .details {
+        width: 100%;
+    }
+}
+
+/* Regional Exposure */
+
+.regional-exposure {
+    height: 8rem;
+}
+
+.bar-bg {
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+.inner-bar-na {
+    background-color: #e0e0e0;
+    width: 60.95%;
+}
+
+.inner-bar-eu {
+    background-color: #e0e0e0;
+    width: 0.30%;
+}
+
+.inner-bar-as {
+    background-color: #e0e0e0;
+    width: 38.75%;
+}
+
+/* Chart */
+
+.chart-and-table {
+    height: 30rem;
+}
+
+.vaxis {
+    height: 90%;
+    width: 10%;
+}
+
+.data {
+    height: 100%;
+    position: relative;
+}
+
+.hlines {
+    position: absolute;
+}
+
+.hline-heavy {
+    background-color: #ebebeb;
+    height: 2px;
+}
+
+.hline {
+    background-color: #ebebeb;
+    height: 1px;
+}
+
+.vbars {
+    position: absolute;
+}
+
+.vbar {
+    width: 100%;
+    background-color: #202020;
+    border-radius: 2px 2px 0 0;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.vbar:hover {
+    background-color: #181818;
+}
+
+.january {
+    height: 0%;
+}
+
+.february {
+    height: 94%;
+}
+
+.march {
+    height: 0%;
+}
+
+.april {
+    height: 0%;
+}
+
+.may {
+    height: 0%;
+}
+
+.june {
+    height: 0%;
+}
+
+.july {
+    height: 0%;
+}
+
+.august {
+    height: 0%;
+}
+
+.september {
+    height: 0%;
+}
+
+.october {
+    height: 0%;
+}
+
+.november {
+    height: 0%;
+}
+
+.december {
+    height: 0%;
+}
+
+bar[data-hover]::before {
+    content: attr(data-hover);
+    position: absolute;
+    right: 0%;
+    bottom: 105%;
+    opacity: 0;
+    background: #f5f5f5;
+    color: #202020;
+    padding: 0.4rem;
+    border-radius: 2px;
+}
+
+bar[data-hover]:hover::before {
+    opacity: 1;
+}
+
+@media (max-width: 1280px) {
+    .percent {
+        font-size: 0.875rem;
+    }
+
+    .month {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        font-size: 0.875rem;
+    }
+
+    .vbars {
+        gap: 0;
+    }
+
+    .haxis {
+        gap: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .chart-and-table {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .chart {
+        width: 110%;
+    }
+
+    .percent {
+        font-size: 0.75rem;
+    }
+
+    .month {
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        font-size: 0.75rem;
+    }
+
+}
+
+/* Table */
+
+.table {
+    background-color: #f5f5f5;
+    border-radius: 2px;
+}
+
+td:nth-child(even) {
+    text-align: right;
+}
+
+td {
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+
+    .table {
+        width: 110%;
+    }
+}
