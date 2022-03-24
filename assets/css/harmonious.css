@@ -1,0 +1,21 @@
+html,
+body {
+    font-size: 100%;
+    overflow: auto;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+div {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-decoration: none;
+}
