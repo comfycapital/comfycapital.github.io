@@ -28,6 +28,12 @@
     }
 }
 
+@media (max-height: 640px) {
+    .resources {
+        padding: 2rem !important;
+    }
+}
+
 /* Regional Exposure */
 
 .regional-exposure {
