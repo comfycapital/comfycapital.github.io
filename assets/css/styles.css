@@ -173,18 +173,18 @@ header {
 }
 
 .header__right-text {
-    width: 60%;
+    width: 70%;
 }
 
 @media (max-width: 1280px) {
     .header__right-text {
-        width: 70%;
+        width: 80%;
     }
 }
 
 @media (max-width: 1024px) {
     .header__right-text {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -193,12 +193,6 @@ header {
         padding: 2rem !important;
     }
 
-    .header__right-text {
-        width: 90%;
-    }
-}
-
-@media (max-width: 640px) {
     .header__right-text {
         width: 100%;
     }
