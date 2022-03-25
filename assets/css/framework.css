@@ -636,6 +636,50 @@ h6 {
 
 /* Margin */
 
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mt-1 {
+    margin-top: 0.5rem;
+    /* 8px */
+}
+
+.mt-2 {
+    margin-top: 1rem;
+    /* 16px */
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+    /* 24px */
+}
+
+.mt-4 {
+    margin-top: 2rem;
+    /* 32px */
+}
+
+.mt-5 {
+    margin-top: 2.5rem;
+    /* 40px */
+}
+
+.mt-6 {
+    margin-top: 3rem;
+    /* 48px */
+}
+
+.mt-7 {
+    margin-top: 3.5rem;
+    /* 56px */
+}
+
+.mt-8 {
+    margin-top: 4rem;
+    /* 64px */
+}
+
 .mb-0 {
     margin-bottom: 0px;
 }
