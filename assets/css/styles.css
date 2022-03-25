@@ -15,6 +15,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    position: relative;
     background-color: #fafafa;
     opacity: 0;
     -o-transition: opacity 1.3s ease-in-out;
@@ -88,13 +89,12 @@ div {
     color: #fafafa;
 }
 
-/* Nav and Header */
-
-.nav-and-header {
-    height: 100vh;
-}
-
 /* Nav */
+
+.nav {
+    width: 100%;
+    position: absolute;
+}
 
 .nav__mobile {
     display: none !important;
@@ -113,7 +113,7 @@ div {
 }
 
 @media (max-width: 768px) {
-    nav {
+    .nav {
         padding: 2rem !important;
     }
 }
@@ -142,7 +142,65 @@ div {
     }
 }
 
+@media (max-height: 640px) {
+    .nav {
+        padding: 2rem !important;
+    }
+}
+
+/* Nav Alt */
+
+.navalt__mobile {
+    display: none !important;
+}
+
+.square-black {
+    height: 25px;
+    width: 25px;
+    background-color: #202020;
+}
+
+.square-white {
+    height: 25px;
+    width: 25px;
+    background-color: #fafafa;
+}
+
+@media (max-width: 768px) {
+    .navalt {
+        padding: 2rem !important;
+    }
+}
+
+@media (orientation: landscape) {
+    .navalt__desktop {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+
+    .navalt__mobile {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .navalt__desktop {
+        display: none !important;
+    }
+
+    .navalt__mobile {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+
 /* Header */
+
+.header {
+    height: 100vh;
+}
 
 header {
     width: 100%;
@@ -166,7 +224,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        padding: 0 2rem 2rem !important;
+        padding: 2rem !important;
     }
 
     .header__right-text {
@@ -177,6 +235,12 @@ header {
 @media (max-width: 640px) {
     .header__right-text {
         width: 100%;
+    }
+}
+
+@media (max-height: 640px) {
+    header {
+        padding: 2rem !important;
     }
 }
 
@@ -209,8 +273,8 @@ footer {
 @media (max-height: 640px) {
     footer {
         padding: 2rem !important;
+        gap: 2rem !important;
     }
-
     .footer__nav {
         gap: 1rem !important;
     }
