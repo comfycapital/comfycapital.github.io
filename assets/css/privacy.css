@@ -3,3 +3,9 @@
         padding: 2rem !important;
     }
 }
+
+@media (max-height: 640px) {
+    .privacy {
+        padding: 2rem !important;
+    }
+}
