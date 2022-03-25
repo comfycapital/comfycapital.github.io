@@ -130,13 +130,7 @@ div {
     }
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
-    nav {
-        padding: 2rem !important;
-    }
-}
-
-@media (max-width: 1024px) and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait) {
     .nav__desktop {
         display: none !important;
     }
@@ -186,12 +180,6 @@ header {
     }
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
-    header {
-        padding: 0 2rem 2rem !important;
-    }
-}
-
 /* Middle Line */
 
 .middle-line {
@@ -225,11 +213,5 @@ footer {
 
     .footer__nav {
         gap: 1rem !important;
-    }
-}
-
-@media (max-width: 1024px) and (orientation: landscape) {
-    footer {
-        padding: 2rem !important;
     }
 }
