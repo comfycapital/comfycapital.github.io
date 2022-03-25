@@ -190,7 +190,6 @@ header {
 /* Footer */
 
 footer {
-    height: 100vh;
     width: 100%;
     background-color: #202020;
 }
@@ -203,6 +202,7 @@ footer {
 @media (max-width: 768px) {
     footer {
         padding: 2rem !important;
+        gap: 2rem !important;
     }
 }
 
