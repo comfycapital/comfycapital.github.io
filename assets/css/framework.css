@@ -17,32 +17,23 @@
 /* Typography */
 
 @font-face {
-    font-family: HelveticaNowText-Regular-WOFF2;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.woff2);
+    font-family: Poppins-Regular;
+    src: url(/assets/fonts/Poppins/Poppins-Regular.otf);
 }
 
 @font-face {
-    font-family: HelveticaNowText-Medium-WOFF2;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Medium.woff2);
+    font-family: Poppins-Medium;
+    src: url(/assets/fonts/Poppins/Poppins-Medium.otf);
 }
 
-@font-face {
-    font-family: HelveticaNowText-Regular-WOFF;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.woff);
+.font-regular {
+    font-family: Poppins-Regular, Arial, Helvetica, sans-serif;
 }
 
-@font-face {
-    font-family: HelveticaNowText-Medium-WOFF;
-    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Medium.woff);
+.font-medium {
+    font-family: Poppins-Medium, Arial, Helvetica, sans-serif;
 }
 
-.helvetica-regular {
-    font-family: HelveticaNowText-Regular-WOFF2, HelveticaNowText-Regular-WOFF, Arial, Helvetica, sans-serif;
-}
-
-.helvetica-medium {
-    font-family: HelveticaNowText-Medium-WOFF2, HelveticaNowText-Medium-WOFF, Arial, Helvetica, sans-serif;
-}
 
 .font-xs {
     font-size: 0.75rem;
