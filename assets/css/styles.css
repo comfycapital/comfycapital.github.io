@@ -150,49 +150,15 @@ div {
 
 /* Nav Alt */
 
-.navalt__mobile {
-    display: none !important;
-}
-
-.square-black {
-    height: 25px;
-    width: 25px;
-    background-color: #202020;
-}
-
-.square-white {
-    height: 25px;
-    width: 25px;
-    background-color: #fafafa;
-}
-
 @media (max-width: 768px) {
     .navalt {
         padding: 2rem !important;
     }
 }
 
-@media (orientation: landscape) {
-    .navalt__desktop {
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-    }
-
-    .navalt__mobile {
-        display: none !important;
-    }
-}
-
-@media (max-width: 768px) and (orientation: portrait) {
-    .navalt__desktop {
-        display: none !important;
-    }
-
-    .navalt__mobile {
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
+@media (max-height: 640px) {
+    .navalt {
+        padding: 2rem !important;
     }
 }
 
