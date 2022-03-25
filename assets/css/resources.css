@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 768px) {
+    .resources {
+        padding: 2rem !important;
+    }
+
     .details {
         width: 90%;
     }
@@ -192,7 +196,7 @@ bar[data-hover]:hover::before {
     }
 
     .chart {
-        width: 110%;
+        width: 100%;
     }
 
     .percent {
@@ -226,6 +230,6 @@ td {
 @media (max-width: 1024px) {
 
     .table {
-        width: 110%;
+        width: 100%;
     }
 }
