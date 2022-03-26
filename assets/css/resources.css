@@ -11,6 +11,9 @@
     .resources {
         padding: 2rem !important;
     }
+    .details {
+        gap: 2rem;
+    }
 }
 
 /* Regional Exposure */
