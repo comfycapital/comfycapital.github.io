@@ -1,14 +1,12 @@
 /* Resources */
 
-@media (max-width: 1280px),
-(max-height: 1280px) {
+@media (max-width: 1280px){
     .details {
         width: 70%;
     }
 }
 
-@media (max-width: 1024px),
-(max-height: 1024px) {
+@media (max-width: 1024px) {
     .details {
         width: 80%;
     }
