@@ -177,7 +177,7 @@
     }
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
+@media (max-width: 1024px){
     .font-9xl {
         font-size: 4.5rem;
         /* 72px */
@@ -376,7 +376,7 @@ h6 {
     font-size: 1rem;
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
+@media (max-width: 1024px) {
     h1 {
         font-size: 1.875rem;
     }
