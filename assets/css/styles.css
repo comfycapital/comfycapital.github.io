@@ -112,12 +112,6 @@ div {
     background-color: #fafafa;
 }
 
-@media (max-width: 768px) {
-    .nav {
-        padding: 2rem !important;
-    }
-}
-
 @media (orientation: landscape) {
     .nav__desktop {
         display: -webkit-box !important;
@@ -142,7 +136,7 @@ div {
     }
 }
 
-@media (max-height: 640px) {
+@media (max-width: 768px), (max-height: 768px) {
     .nav {
         padding: 2rem !important;
     }
@@ -150,13 +144,7 @@ div {
 
 /* Nav Alt */
 
-@media (max-width: 768px) {
-    .navalt {
-        padding: 2rem !important;
-    }
-}
-
-@media (max-height: 640px) {
+@media (max-width: 768px), (max-height: 768px) {
     .navalt {
         padding: 2rem !important;
     }
@@ -176,31 +164,25 @@ header {
     width: 70%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px), (max-height: 1280px) {
     .header__right-text {
         width: 80%;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (max-height: 1024px) {
     .header__right-text {
         width: 90%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 768px) {
     header {
         padding: 2rem !important;
     }
 
     .header__right-text {
         width: 100%;
-    }
-}
-
-@media (max-height: 640px) {
-    header {
-        padding: 2rem !important;
     }
 }
 
@@ -218,19 +200,11 @@ footer {
     background-color: #202020;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 768px) {
     footer {
         padding: 2rem !important;
         gap: 2rem !important;
     }
-}
-
-@media (max-height: 640px) {
-    footer {
-        padding: 2rem !important;
-        gap: 2rem !important;
-    }
-
     .footer__nav {
         gap: 1rem !important;
     }
