@@ -232,7 +232,7 @@
     }
 }
 
-@media (max-width: 768px), (max-height: 768px) {
+@media (max-width: 768px) {
     .font-9xl {
         font-size: 3.75rem;
         /* 60px */
@@ -281,7 +281,7 @@
     }
 }
 
-@media (max-width: 640px), (max-height: 640px) {
+@media (max-width: 640px) {
     .font-9xl {
         font-size: 3rem;
         /* 48px */
