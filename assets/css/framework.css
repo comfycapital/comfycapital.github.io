@@ -17,17 +17,17 @@
 /* Typography */
 
 @font-face {
-    font-family: Poppins-Regular;
-    src: url(/assets/fonts/Poppins/Poppins-Regular.otf);
+    font-family: HelveticaNowText-Regular;
+    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.woff2);
 }
 
 @font-face {
-    font-family: Poppins-Medium;
-    src: url(/assets/fonts/Poppins/Poppins-Medium.otf);
+    font-family: HelveticaNowText-Medium;
+    src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Medium.woff2);
 }
 
 .font-family-medium {
-    font-family: Poppins-Medium, Arial, Helvetica, sans-serif;
+    font-family: HelveticaNowText-Medium, Arial, Helvetica, sans-serif;
 }
 
 .font-xs {
