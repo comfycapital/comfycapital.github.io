@@ -164,13 +164,13 @@ header {
     width: 70%;
 }
 
-@media (max-width: 1280px), (max-height: 1280px) {
+@media (max-width: 1280px) {
     .header__right-text {
         width: 80%;
     }
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
+@media (max-width: 1024px) {
     .header__right-text {
         width: 90%;
     }
