@@ -27,12 +27,11 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: -o-linear-gradient(135deg, #fafafa, #aed4e5, #fafafa, #aec1e5);
-    background: linear-gradient(-45deg, #fafafa, #aed4e5, #fafafa, #aec1e5);
+    background: -o-linear-gradient(135deg, #000000, #00000000, #00000000, #000000);
+    background: linear-gradient(-45deg, #000000, #00000000, #00000000, #000000);
     background-size: 400% 400%;
     -webkit-animation: gradient 30s ease-in-out infinite;
     animation: gradient 30s ease-in-out infinite;
-    z-index: -1;
 }
 
 @-webkit-keyframes gradient {
@@ -68,7 +67,16 @@ body {
     width: 100%;
     position: absolute;
     background-image: url("/assets/images/noise.webp");
-    z-index: -1;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("/assets/images/img-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
 }
 
 a,
@@ -88,6 +96,8 @@ div {
 .font-color-white {
     color: #fafafa;
 }
+
+/* Nav and Header*/
 
 /* Nav */
 
