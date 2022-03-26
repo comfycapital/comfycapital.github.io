@@ -1,10 +1,4 @@
-@media (max-width: 768px) {
-    .privacy {
-        padding: 2rem !important;
-    }
-}
-
-@media (max-height: 640px) {
+@media (max-width: 768px), (max-height: 768px) {
     .privacy {
         padding: 2rem !important;
     }
