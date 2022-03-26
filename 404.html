@@ -34,46 +34,50 @@
 
 <body onload="document.body.style.opacity='1'">
 
-    <div class="bg-gradient"></div>
-
-    <div class="bg-blur"></div>
-
-    <nav
-        class="nav nav__desktop flex row justify-content-between align-items-center gap-2 plr-8 py-8 animate__fadeInDown">
-        <a href="/">
-            <div class="flex align-items-center gap-1">
-                <div> <img src="/assets/images/comfy_capital_logo_25px.png" class="p-1"></div>
-                <div class="font-family-medium font-2xl">Comfy Capital</div>
+    <div class="nav-and-header">
+        <div class="bg-gradient"></div>
+        <div class="bg-blur"></div>
+        <nav
+            class="nav nav__desktop flex row justify-content-between align-items-center gap-2 plr-8 py-8 animate__fadeInDown">
+            <a href="/">
+                <div class="flex align-items-center gap-1">
+                    <div> <img src="/assets/images/comfy_capital_logo_25px.png" class="p-1"></div>
+                    <div class="font-family-medium font-2xl">Comfy Capital</div>
+                </div>
+            </a>
+            <div class="nav__right flex justify-content-between gap-4">
+                <a href="/resources">
+                    <div class="font-family-medium font-2xl">Resources</div>
+                </a>
+                <a href="https://twitter.com/comfycapital" target="_blank">
+                    <div class="font-family-medium font-2xl">Get in touch</div>
+                </a>
             </div>
-        </a>
-        <div class="nav__right flex justify-content-between gap-4">
-            <a href="/resources">
-                <div class="font-family-medium font-2xl">Resources</div>
+        </nav>
+
+        <nav class="nav nav__mobile plr-8 py-8 animate__fadeInDown">
+            <a href="/">
+                <div class="flex gap-2">
+                    <div> <img src="/assets/images/comfy_capital_logo_25px.png"></div>
+                    <div class="font-family-medium font-2xl">Comfy Capital</div>
+                </div>
             </a>
-            <a href="https://twitter.com/comfycapital" target="_blank">
-                <div class="font-family-medium font-2xl">Get in touch</div>
-            </a>
+        </nav>
+
+        <div class="header flex col justify-content-end">
+            <header class="flex justify-content-end p-8">
+                <div class="flex col justify-content-end align-items-end gap-4 header__right-text animate__fadeInUp">
+                    <h1 class="font-9xl font-color-white text-align-right">Investment made comfier.</h1>
+
+                    <h4 class="font-2xl text-align-right">With a focus on digital commodities, our
+                        investment
+                        approach favors high-conviction positions in assets that we believe could overcome time,
+                        political
+                        and
+                        international barriers. </h4>
+                </div>
+            </header>
         </div>
-    </nav>
-
-    <nav class="nav nav__mobile plr-8 py-8 animate__fadeInDown">
-        <a href="/">
-            <div class="flex gap-2">
-                <div> <img src="/assets/images/comfy_capital_logo_25px.png"></div>
-                <div class="font-family-medium font-2xl">Comfy Capital</div>
-            </div>
-        </a>
-    </nav>
-
-    <div class="header flex col justify-content-end">
-        <header class="flex justify-content-end p-8">
-            <div class="flex col justify-content-end align-items-end gap-4 header__right-text animate__fadeInUp">
-                <h1 class="font-9xl text-align-right">404</h1>
-
-                <h4 class="font-2xl text-align-right">The page you were looking for has been removed,
-                    renamed, or did not exist in the first place.</h4>
-            </div>
-        </header>
     </div>
 
     <footer class="flex col justify-content-between gap-8 p-8">
