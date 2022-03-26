@@ -1,18 +1,21 @@
 /* Resources */
 
-@media (max-width: 1280px), (max-height: 1280px) {
+@media (max-width: 1280px),
+(max-height: 1280px) {
     .details {
         width: 70%;
     }
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
+@media (max-width: 1024px),
+(max-height: 1024px) {
     .details {
         width: 80%;
     }
 }
 
-@media (max-width: 768px), (max-height: 768px) {
+@media (max-width: 768px),
+(max-height: 768px) {
     .resources {
         padding: 2rem !important;
     }
@@ -22,7 +25,8 @@
     }
 }
 
-@media (max-width: 640px), (max-height: 640px) {
+@media (max-width: 640px),
+(max-height: 640px) {
     .details {
         width: 100%;
     }
@@ -57,6 +61,10 @@
 /* Chart */
 
 .chart-and-table {
+    height: auto;
+}
+
+.chart {
     height: 30rem;
 }
 
@@ -66,8 +74,12 @@
 }
 
 .data {
-    height: 100%;
+    height: 90%;
     position: relative;
+}
+
+.haxis {
+    height: 10%;
 }
 
 .hlines {
@@ -165,7 +177,10 @@ bar[data-hover]:hover::before {
     opacity: 1;
 }
 
-@media (max-width: 1280px), (max-height: 1280px) {
+@media (max-width: 1280px) {
+    .chart {
+        height: 25rem;
+    }
     .percent {
         font-size: 0.875rem;
     }
@@ -186,19 +201,17 @@ bar[data-hover]:hover::before {
     }
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
+@media (max-width: 1024px) {
     .chart-and-table {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        height: auto;
     }
-
     .chart {
+        height: 20rem;
         width: 100%;
     }
-
     .percent {
         font-size: 0.75rem;
     }
@@ -209,12 +222,18 @@ bar[data-hover]:hover::before {
         transform: rotate(-90deg);
         font-size: 0.75rem;
     }
+}
 
+@media (max-width: 768px) {
+    .chart {
+        height: 15rem;
+    }
 }
 
 /* Table */
 
 .table {
+    height: 30rem;
     background-color: #f5f5f5;
     border-radius: 2px;
 }
@@ -227,8 +246,7 @@ td {
     width: 50%;
 }
 
-@media (max-width: 1024px), (max-height: 1024px) {
-
+@media (max-width: 1024px) {
     .table {
         width: 100%;
     }
