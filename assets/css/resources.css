@@ -23,8 +23,14 @@
 }
 
 .bar-bg {
+    position: relative;
     background-color: #f0f0f0;
     height: 100%;
+}
+
+.inner-bar-text {
+    position: absolute;
+    left: 1rem;
 }
 
 .inner-bar-na {
