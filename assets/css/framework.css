@@ -392,6 +392,9 @@ h6 {
     h4 {
         font-size: 1.125rem;
     }
+    h5 {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 768px), (max-height: 768px) {
@@ -405,6 +408,10 @@ h6 {
 
     h3 {
         font-size: 1.125rem;
+    }
+
+    h4 {
+        font-size: 1rem;
     }
 }
 
