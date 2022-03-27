@@ -48,6 +48,13 @@
     width: 0.51%;
 }
 
+@media (max-width: 768px),
+(max-height: 768px) {
+    .regional-exposure {
+        height: 7rem;
+    }
+}
+
 /* Chart */
 
 .chart-and-table {
