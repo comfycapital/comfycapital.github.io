@@ -23,16 +23,6 @@ body {
     -webkit-transition: opacity 1.3s ease-in-out;
 }
 
-.bg-img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-image: url("/assets/images/img-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.6;
-}
-
 a,
 p,
 h1,
@@ -49,6 +39,10 @@ div {
 
 .font-color-white {
     color: #fafafa;
+}
+
+.font-color-dark {
+    color: #202020;
 }
 
 /* Nav and Header*/
@@ -109,6 +103,10 @@ div {
 
 /* Nav Alt */
 
+.navalt {
+    border-bottom: 1px solid #ebebeb;
+}
+
 @media (max-width: 768px),
 (max-height: 768px) {
     .navalt {
@@ -127,29 +125,14 @@ header {
 }
 
 .header__right-text {
-    width: 70%;
+    width: 100%;
 }
 
-@media (max-width: 1280px) {
-    .header__right-text {
-        width: 80%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .header__right-text {
-        width: 90%;
-    }
-}
 
 @media (max-width: 768px),
 (max-height: 768px) {
     header {
         padding: 2rem !important;
-    }
-
-    .header__right-text {
-        width: 100%;
     }
 }
 
