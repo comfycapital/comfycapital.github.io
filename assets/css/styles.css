@@ -64,18 +64,6 @@ div {
     display: none !important;
 }
 
-.square-black {
-    height: 25px;
-    width: 25px;
-    background-color: #202020;
-}
-
-.square-white {
-    height: 25px;
-    width: 25px;
-    background-color: #fafafa;
-}
-
 @media (orientation: landscape) {
     .nav__desktop {
         display: -webkit-box !important;
