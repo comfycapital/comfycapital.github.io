@@ -17,6 +17,7 @@
     .resources {
         padding: 2rem !important;
     }
+
     .details {
         gap: 2rem;
     }
@@ -184,6 +185,7 @@ bar[data-hover]:hover::before {
     .chart {
         height: 25rem;
     }
+
     .percent {
         font-size: 0.875rem;
     }
@@ -211,10 +213,12 @@ bar[data-hover]:hover::before {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
     .chart {
         height: 20rem;
         width: 100%;
     }
+
     .percent {
         font-size: 0.75rem;
     }
