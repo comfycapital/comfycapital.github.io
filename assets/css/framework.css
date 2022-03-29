@@ -136,7 +136,7 @@
     line-height: 1;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px), (max-height: 1280px) {
     .font-9xl {
         font-size: 6rem;
         /* 96px */
@@ -197,7 +197,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (max-height: 1024px) {
     .font-9xl {
         font-size: 4.5rem;
         /* 72px */
@@ -252,7 +252,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 768px) {
     .font-9xl {
         font-size: 3.75rem;
         /* 60px */
@@ -301,7 +301,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px), (max-height: 640px) {
     .font-9xl {
         font-size: 3rem;
         /* 48px */
@@ -369,7 +369,7 @@ h6 {
     font-size: 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (max-height: 1024px) {
     h1 {
         font-size: 1.875rem;
     }
