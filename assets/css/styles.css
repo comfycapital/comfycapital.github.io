@@ -86,7 +86,7 @@ div {
     }
 }
 
-@media (max-width: 768px), (orientation: portrait) {
+@media (max-width: 768px) {
     .nav__desktop {
         display: none !important;
     }
