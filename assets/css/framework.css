@@ -457,6 +457,8 @@ div {
 
 .underline-dark {
     border-bottom: 1px solid #202020;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
 
