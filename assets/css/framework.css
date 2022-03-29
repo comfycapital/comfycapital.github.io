@@ -16,6 +16,26 @@
 
 /* Typography */
 
+.font-white {
+    color: #fafafa;
+}
+
+.font-dark {
+    color: #202020;
+}
+
+::-moz-selection {
+    color: #fafafa;
+    background: #202020;
+    text-shadow: none;
+}
+
+::selection {
+    color: #fafafa;
+    background: #202020;
+    text-shadow: none;
+}
+
 @font-face {
     font-family: HelveticaNowText-Regular;
     src: url(/assets/fonts/Helvetica_Now/HelveticaNowText-Regular.woff2);
@@ -177,7 +197,7 @@
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .font-9xl {
         font-size: 4.5rem;
         /* 72px */
@@ -325,33 +345,6 @@
 
 }
 
-.text-align-left {
-    text-align: left;
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.text-align-right {
-    text-align: right;
-}
-
-a,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-div {
-    font-size: 1rem;
-    font-weight: normal;
-    line-height: 1.5rem;
-}
-
 h1 {
     font-size: 2.25rem;
 }
@@ -392,12 +385,14 @@ h6 {
     h4 {
         font-size: 1.125rem;
     }
+
     h5 {
         font-size: 1rem;
     }
 }
 
-@media (max-width: 768px), (max-height: 768px) {
+@media (max-width: 768px),
+(max-height: 768px) {
     h1 {
         font-size: 1.5rem;
     }
@@ -413,6 +408,60 @@ h6 {
     h4 {
         font-size: 1rem;
     }
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+div {
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+.a-white {
+    color: #fafafa;
+}
+
+.a-white:hover {
+    color: #e0e0e0;
+}
+
+.a-dark {
+    color: #202020;
+}
+
+.a-dark:hover {
+    color: #080808;
+}
+
+.underline-dark {
+    border-bottom: 1px solid #202020;
+    transition: all 0.1s ease-in-out;
+}
+
+.underline-dark:hover {
+    border-bottom: 1px solid #080808;
 }
 
 /* Padding */
@@ -563,6 +612,50 @@ h6 {
 
 .pt-8 {
     padding-top: 4rem;
+    /* 64px */
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+.pb-1 {
+    padding-bottom: 0.5rem;
+    /* 8px */
+}
+
+.pb-2 {
+    padding-bottom: 1rem;
+    /* 16px */
+}
+
+.pb-3 {
+    padding-bottom: 1.5rem;
+    /* 24px */
+}
+
+.pb-4 {
+    padding-bottom: 2rem;
+    /* 32px */
+}
+
+.pb-5 {
+    padding-bottom: 2.5rem;
+    /* 40px */
+}
+
+.pb-6 {
+    padding-bottom: 3rem;
+    /* 48px */
+}
+
+.pb-7 {
+    padding-bottom: 3.5rem;
+    /* 56px */
+}
+
+.pb-8 {
+    padding-bottom: 4rem;
     /* 64px */
 }
 
@@ -872,6 +965,10 @@ h6 {
 
 .bg-white {
     background-color: #fafafa;
+}
+
+.bg-dark {
+    background-color: #202020;
 }
 
 /* Animations */
