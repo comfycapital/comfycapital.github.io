@@ -139,6 +139,12 @@ footer {
     bottom: 0;
 }
 
+@media (max-width: 1536px) {
+    .footer__nav {
+        width: 100% !important;
+    }
+}
+
 @media (max-width: 768px),
 (max-height: 768px) {
     footer {
@@ -147,6 +153,7 @@ footer {
     }
 
     .footer__nav {
+        flex-direction: column;
         gap: 1rem !important;
     }
 }
