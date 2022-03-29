@@ -35,34 +35,24 @@
 
 <body onload="document.body.style.opacity='1'">
 
-    <div>
-        <div class="bg-img"></div>
-        <nav
-            class="navalt nav__desktop flex row justify-content-between align-items-center gap-2 plr-8 py-8 animate__fadeInDown">
-            <a href="/">
-                <div class="flex align-items-center gap-1">
-                    <div> <img src="/assets/images/comfy_capital_logo_25px.png" class="p-1"></div>
-                    <div class="font-family-medium font-2xl">Comfy Capital</div>
-                </div>
-            </a>
-            <div class="nav__right flex justify-content-between gap-4">
-                <a href="/resources">
-                    <div class="font-family-medium font-2xl">Resources</div>
-                </a>
-                <a href="https://twitter.com/comfycapital" target="_blank">
-                    <div class="font-family-medium font-2xl">Get in touch</div>
-                </a>
-            </div>
-        </nav>
-        <nav class="navalt nav__mobile plr-8 py-8 animate__fadeInDown">
-            <a href="/">
-                <div class="flex gap-2">
-                    <div> <img src="/assets/images/comfy_capital_logo_25px.png"></div>
-                    <div class="font-family-medium font-2xl">Comfy Capital</div>
-                </div>
-            </a>
-        </nav>
-    </div>
+    <nav class="navalt nav__desktop flex row justify-content-between align-items-center gap-2 plr-8 py-6 animate__fadeInDown">
+        <div class="flex align-items-center gap-2">
+            <a href="/"><img src="/assets/images/comfy_capital_logo_25px.png" class="p-1"></a>
+            <a href="/" class="font-family-medium font-2xl a-dark">Comfy Capital</a>
+        </div>
+        <div class="nav__right flex justify-content-between gap-4">
+            <a href="/resources" class="font-family-medium font-2xl a-dark">Resources</a>
+            <a href="https://twitter.com/comfycapital" target="_blank" class="font-family-medium font-2xl a-dark">Get in
+                touch</a>
+        </div>
+    </nav>
+
+    <nav class="navalt nav__mobile animate__fadeInDown">
+        <div class="flex align-items-center gap-1">
+            <a href="/"><img src="/assets/images/comfy_capital_logo_25px.png" class="p-1"></a>
+            <a href="/" class="font-family-medium font-2xl a-dark">Comfy Capital</a>
+        </div>
+    </nav>
 
     <div class="privacy p-8 bg-white">
         <div class="flex col justify-content-evenly gap-2 animate__fadeInUp">
@@ -196,19 +186,12 @@
     </div>
 
     <footer class="flex col justify-content-between gap-8 p-8">
-        <div class="footer__nav flex col justify-content-between gap-4">
-            <a href="/">
-                <div class="font-family-medium font-2xl font-color-white">Home</div>
-            </a>
-            <a href="/resources">
-                <div class="font-family-medium font-2xl font-color-white">Resources</div>
-            </a>
-            <a href="/privacy">
-                <div class="font-family-medium font-2xl font-color-white">Privacy policy</div>
-            </a>
-            <a href="https://twitter.com/comfycapital" target="_blank">
-                <div class="font-family-medium font-2xl font-color-white">Get in touch</div>
-            </a>
+        <div class="footer__nav flex col justify-content-between align-items-start gap-4">
+            <a href="/" class="font-family-medium font-2xl font-color-white a-white">Home</a>
+            <a href="/resources" class="font-family-medium font-2xl font-color-white a-white">Resources</a>
+            <a href="/privacy" class="font-family-medium font-2xl font-color-white a-white">Privacy Policy</a>
+            <a href="https://twitter.com/comfycapital" target="_blank"
+                class="font-family-medium font-2xl font-color-white a-white">Get in touch</a>
         </div>
         <div>
             <h4 class="font-md font-color-white">© 2022. Comfy Capital. All rights reserved.</h4>
