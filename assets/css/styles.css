@@ -104,13 +104,6 @@ div {
     border-bottom: 1px solid #ebebeb;
 }
 
-@media (max-width: 768px),
-(max-height: 768px) {
-    .navalt {
-        padding: 2rem !important;
-    }
-}
-
 /* Header */
 
 .header {
