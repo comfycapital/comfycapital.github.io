@@ -16,6 +16,39 @@
 
 /* Typography */
 
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+div,
+span {
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.a-white {
+    color: #fafafa;
+}
+
+.a-white:hover {
+    color: #e0e0e0;
+}
+
+.a-dark {
+    color: #202020;
+}
+
+.a-dark:hover {
+    color: #080808;
+}
+
 .font-white {
     color: #fafafa;
 }
@@ -424,40 +457,6 @@ h6 {
 
 .text-align-right {
     text-align: right;
-}
-
-a,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-div,
-span {
-    height: auto;
-    width: auto;
-    font-size: 1rem;
-    font-weight: normal;
-    line-height: 1.5rem;
-}
-
-.a-white {
-    color: #fafafa;
-}
-
-.a-white:hover {
-    color: #e0e0e0;
-}
-
-.a-dark {
-    color: #202020;
-}
-
-.a-dark:hover {
-    color: #080808;
 }
 
 .underline-dark {
