@@ -47,7 +47,9 @@
 }
 
 .font-family-medium {
-    font-family: HelveticaNowText-Medium, Helvetica, Arial, sans-serif;
+    font-family: poppins, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .font-xs {
