@@ -433,7 +433,8 @@ h4,
 h5,
 h6,
 li,
-div {
+div,
+span {
     height: auto;
     width: auto;
     font-size: 1rem;
@@ -812,6 +813,20 @@ div {
 .mb-8 {
     margin-bottom: 4rem;
     /* 64px */
+}
+
+/* Display */
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
 }
 
 /* Flexbox */
