@@ -92,6 +92,9 @@ div {
     .nav__links {
         padding: 2rem !important;
     }
+    .privacy-consent {
+        padding: 2rem !important;
+    }
 }
 
 @media (max-width: 768px) {
