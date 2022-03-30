@@ -35,7 +35,9 @@ li,
 div,
 span {
     color: #202020;
-    font-family: HelveticaNowText-Regular, Helvetica, Arial, sans-serif;
+    font-family: poppins, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font-color-white {
@@ -97,6 +99,7 @@ span {
     .nav__links {
         padding: 2rem !important;
     }
+
     .privacy-consent {
         padding: 1rem 2rem !important;
     }
@@ -153,6 +156,7 @@ header {
     header {
         gap: 0 !important;
     }
+
     .header img {
         display: none;
     }
@@ -163,6 +167,7 @@ header {
     header {
         padding: 2rem !important;
     }
+
     .header img {
         width: 75px;
     }
@@ -172,6 +177,7 @@ header {
     header {
         gap: 0 !important;
     }
+
     .header img {
         display: none;
     }
