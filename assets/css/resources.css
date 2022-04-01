@@ -74,7 +74,11 @@
 
 .vaxis {
     height: 90%;
-    width: 10%;
+    flex: 1;
+}
+
+.data-and-haxis {
+    flex: 9;
 }
 
 .data {
@@ -122,11 +126,11 @@
 }
 
 .february {
-    height: 47%;
+    height: 31.33%;
 }
 
 .march {
-    height: 0%;
+    height: 81%;
 }
 
 .april {
@@ -195,19 +199,19 @@ bar[data-hover]:hover::before {
         font-size: 0.875rem;
     }
 
+    .vbars {
+        gap: 0.75rem;
+    }
+
+    .haxis {
+        gap: 0.75rem;
+    }
+
     .month {
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
         font-size: 0.875rem;
-    }
-
-    .vbars {
-        gap: 0;
-    }
-
-    .haxis {
-        gap: 0;
     }
 }
 
@@ -228,6 +232,14 @@ bar[data-hover]:hover::before {
         font-size: 0.75rem;
     }
 
+    .vbars {
+        gap: 0.5rem;
+    }
+
+    .haxis {
+        gap: 0.5rem;
+    }
+
     .month {
         -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
@@ -239,6 +251,14 @@ bar[data-hover]:hover::before {
 @media (max-width: 768px) {
     .chart {
         height: 15rem;
+    }
+
+    .vbars {
+        gap: 0.1rem;
+    }
+
+    .haxis {
+        gap: 0.1rem;
     }
 }
 
