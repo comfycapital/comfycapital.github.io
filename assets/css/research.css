@@ -6,13 +6,16 @@
 
 .container {
     background-color: #ebebeb;
-    background-image: url("/assets/images/research.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
     border-radius: 2px;
 }
 
 .container:hover {
     background-color: #e0e0e0;
+}
+
+.c-1 {
+    background-image: url("/assets/images/c_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 }
