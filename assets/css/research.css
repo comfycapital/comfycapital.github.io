@@ -1,3 +1,9 @@
+.research {
+    background-color: #fafafa;
+    position: relative;
+    z-index: 2;
+}
+
 .container {
     background-color: #ebebeb;
     background-image: url("/assets/images/research.png");
