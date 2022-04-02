@@ -869,6 +869,18 @@ h6 {
     align-items: stretch;
 }
 
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
 .gap-0 {
     gap: 0px;
 }
