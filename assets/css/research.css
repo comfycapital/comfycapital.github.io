@@ -1,0 +1,13 @@
+.container {
+    background-color: #ebebeb;
+    background-image: url("/assets/images/research.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    border-radius: 2px;
+}
+
+.container:hover {
+    background-color: #e0e0e0;
+}
