@@ -1,0 +1,26 @@
+.essay {
+    width: 40%;
+}
+@media (max-width: 768px),
+(max-height: 768px) {
+    .research__essay {
+        padding: 2rem !important;
+    }
+}
+@media (max-width: 1280px) {
+    .essay {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .essay {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .essay {
+        width: 100%;
+    }
+}
