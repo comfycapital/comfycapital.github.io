@@ -163,22 +163,9 @@ header {
     width: 100%;
 }
 
-.header img {
-    width: 125px;
-    -ms-interpolation-mode: nearest-neighbor;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-pixelated;
-    image-rendering: pixelated;
-}
-
 @media (max-width: 1024px) {
     header {
         gap: 0 !important;
-    }
-
-    .header img {
-        display: none;
     }
 }
 
@@ -187,19 +174,11 @@ header {
     header {
         padding: 2rem !important;
     }
-
-    .header img {
-        width: 75px;
-    }
 }
 
 @media (max-height: 640px) {
     header {
         gap: 0 !important;
-    }
-
-    .header img {
-        display: none;
     }
 }
 
