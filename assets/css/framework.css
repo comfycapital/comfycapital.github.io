@@ -172,7 +172,19 @@ span {
     line-height: 1;
 }
 
+.font-10xl {
+    font-size: 10rem;
+    /* 160px */
+    line-height: 1;
+}
+
 @media (max-width: 1280px) {
+    .font-10xl {
+        font-size: 8rem;
+        /* 128px */
+        line-height: 1;
+    }
+
     .font-9xl {
         font-size: 6rem;
         /* 96px */
@@ -234,6 +246,12 @@ span {
 }
 
 @media (max-width: 1024px) {
+    .font-10xl {
+        font-size: 6rem;
+        /* 96px */
+        line-height: 1;
+    }
+
     .font-9xl {
         font-size: 4.5rem;
         /* 72px */
@@ -290,6 +308,12 @@ span {
 
 @media (max-width: 768px),
 (max-height: 768px) {
+    .font-10xl {
+        font-size: 4.5rem;
+        /* 72px */
+        line-height: 1;
+    }
+
     .font-9xl {
         font-size: 3.75rem;
         /* 60px */
@@ -340,6 +364,12 @@ span {
 
 @media (max-width: 640px),
 (max-height: 640px) {
+    .font-10xl {
+        font-size: 3.75rem;
+        /* 60px */
+        line-height: 1;
+    }
+
     .font-9xl {
         font-size: 3rem;
         /* 48px */
