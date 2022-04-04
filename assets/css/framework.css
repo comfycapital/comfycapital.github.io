@@ -35,14 +35,31 @@ span {
 
 .a-white {
     color: #fafafa;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .a-white:hover {
     color: #e0e0e0;
 }
 
+.a-gray {
+    color: #c7c7c7;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.a-gray:hover {
+    color: #adadad;
+}
+
 .a-dark {
     color: #202020;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .a-dark:hover {
@@ -67,12 +84,6 @@ span {
     color: #fafafa;
     background: #202020;
     text-shadow: none;
-}
-
-.font-family-medium {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
-    font-style: normal;
 }
 
 .font-xs {
