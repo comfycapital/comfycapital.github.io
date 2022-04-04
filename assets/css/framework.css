@@ -33,6 +33,14 @@ span {
     line-height: 1.5rem;
 }
 
+.font-white {
+    color: #fafafa;
+}
+
+.font-dark {
+    color: #202020;
+}
+
 .a-white {
     color: #fafafa;
     -webkit-transition: all 0.1s ease-in-out;
@@ -63,15 +71,31 @@ span {
 }
 
 .a-dark:hover {
-    color: #080808;
+    color: #000000;
 }
 
-.font-white {
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.underline-dark {
+    border-bottom: 1px solid #202020;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.underline-dark:hover {
     color: #fafafa;
-}
-
-.font-dark {
-    color: #202020;
+    background-color: #202020;
 }
 
 ::-moz-selection {
@@ -435,30 +459,6 @@ h5 {
 
 h6 {
     font-size: .67rem;
-}
-
-.text-align-left {
-    text-align: left;
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.text-align-right {
-    text-align: right;
-}
-
-.underline-dark {
-    border-bottom: 1px solid #202020;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-
-.underline-dark:hover {
-    color: #fafafa;
-    background-color: #202020;
 }
 
 /* Padding */
