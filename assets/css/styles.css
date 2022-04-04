@@ -39,12 +39,14 @@ span {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 500;
     font-style: normal;
+    letter-spacing: 0.02rem;
 }
 
 .font-family-medium {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.02rem;
 }
 
 .font-color-white {
