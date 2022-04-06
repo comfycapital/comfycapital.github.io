@@ -65,6 +65,10 @@ span {
 
 /* Nav */
 
+nav {
+    background-color: #fafafa;
+}
+
 .nav__index {
     width: 100%;
     position: absolute;
@@ -128,8 +132,7 @@ span {
     }
 }
 
-@media (max-width: 640px),
-(max-height: 640px) {
+@media (max-width: 640px) {
     .nav__links {
         padding: 2rem !important;
     }
@@ -170,10 +173,10 @@ header {
 }
 
 
-@media (max-width: 640px),
-(max-height: 640px) {
+@media (max-width: 640px), (max-height: 640px) {
     header {
         padding: 2rem !important;
+        gap: 1rem !important;
     }
 }
 
@@ -184,10 +187,10 @@ footer {
     background-color: #202020;
     position: sticky;
     bottom: 0;
+    z-index: 1;
 }
 
-@media (max-width: 640px),
-(max-height: 640px) {
+@media (max-width: 640px) {
     footer {
         padding: 2rem !important;
         gap: 2rem !important;
