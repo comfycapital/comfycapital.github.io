@@ -1,8 +1,10 @@
-function getData() {
-    return [
-      ['Jan',0],
-      ['Feb',2.82],
-      ['Mar',7.21],
+anychart.onDocumentReady(function () {
+  // create data set on our data
+  var chartData = {
+    rows: [
+      ['Jan', 0],
+      ['Feb', 2.82],
+      ['March', 7.29],
       ['Apr'],
       ['May'],
       ['June'],
@@ -11,34 +13,40 @@ function getData() {
       ['Sep'],
       ['Oct'],
       ['Nov'],
-      ['Dec']
-    ];
-  }
+      ['Dec'],
+    ]
+  };
 
-anychart.onDocumentReady(function () {
+  // create column chart
+  var chart = anychart.column();
 
-  // create a data set on our data
-var dataSet = anychart.data.set(getData());
+  // set chart data
+  chart.data(chartData);
 
-// map data for the line chart,
-// take x from the zero column and value from the first column
-var seriesData = dataSet.mapAs({ x: 0, value: 1 });
+  // turn on chart animation
+  chart.animation(true);
 
-// create a line chart
-var chart = anychart.line();
+  // set chart title text settings
+  chart.interactivity().hoverMode('single');
 
-// create a line series with the mapped data
-var lineChart = chart.spline(seriesData);
-lineChart
-    .name('18-34')
-    .stroke('2 #202020')
+  // set axis settings
+  chart.xAxis().value(0).labels(false);
+  chart.xAxis(1).stroke(null).orientation('bottom');
+  chart.yAxis().labels().format('{%Value}%');
+
+  chart.labels(true);
+  chart
     .tooltip()
-    .format("{%value}%");
+    .title(false)
+    .separator(false)
+    .format('{%Name} {%Value}{decimalSeparator:\\,}%');
 
-// set the container id for the line chart
-chart.container('container');
+  // tune column paddings
+  // chart.barsPadding(0.1).barGroupsPadding(0.9);
 
-// draw the line chart
-chart.draw();
+  // set container id for the chart
+  chart.container('container');
 
+  // initiate chart drawing
+  chart.draw();
 });
