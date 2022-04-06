@@ -1,284 +1,330 @@
 /* Resources */
 
-.resources {
-    position: relative;
-    z-index: 2;
+.bg {
+  position: relative;
+  z-index: 2;
 }
 
 @media (max-width: 1024px) {
-    .details {
-        width: 100%;
-    }
+  .details {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px),
 (max-height: 768px) {
-    .resources {
-        padding: 2rem !important;
-    }
+  .bg {
+    padding: 2rem !important;
+  }
 
-    .details {
-        gap: 2rem;
-    }
+  .resources {
+    gap: 2rem;
+  }
+
+  .details {
+    gap: 2rem;
+  }
 }
 
 /* Regional Exposure */
 
 .regional-exposure {
-    height: 8rem;
+  height: 8rem;
 }
 
 .bar-bg {
-    position: relative;
-    background-color: #f0f0f0;
-    height: 100%;
+  position: relative;
+  background-color: #f0f0f0;
+  height: 100%;
 }
 
 .inner-bar-text {
-    position: absolute;
-    left: 1rem;
+  position: absolute;
+  left: 1rem;
 }
 
 .inner-bar-na {
-    background-color: #e0e0e0;
-    width: 98.99%;
+  background-color: #e0e0e0;
+  width: 98.99%;
 }
 
 .inner-bar-eu {
-    background-color: #e0e0e0;
-    width: 0.50%;
+  background-color: #e0e0e0;
+  width: 0.50%;
 }
 
 .inner-bar-as {
-    background-color: #e0e0e0;
-    width: 0.51%;
+  background-color: #e0e0e0;
+  width: 0.51%;
 }
 
 @media (max-width: 768px),
 (max-height: 768px) {
-    .regional-exposure {
-        height: 7rem;
-    }
+  .regional-exposure {
+    height: 7rem;
+  }
+}
+
+/* Title Chart and Table */
+
+@media (max-width: 768px),
+(max-height: 768px) {
+  .title-chart-and-table {
+    gap: 2rem !important;
+  }
 }
 
 /* Chart */
 
 .chart-and-table {
-    height: auto;
+  height: auto;
 }
 
 .chart {
-    height: 30rem;
+  display: none;
+  height: 30rem;
 }
 
 .vaxis {
-    height: 90%;
-    flex: 1;
+  height: 90%;
+  flex: 1;
 }
 
 .data-and-haxis {
-    flex: 9;
+  flex: 9;
 }
 
 .data {
-    height: 90%;
-    position: relative;
+  height: 90%;
+  position: relative;
 }
 
 .haxis {
-    height: 10%;
+  height: 10%;
 }
 
 .hlines {
-    position: absolute;
+  position: absolute;
 }
 
 .hline-heavy {
-    background-color: #ebebeb;
-    height: 2px;
+  background-color: #ebebeb;
+  height: 2px;
 }
 
 .hline {
-    background-color: #ebebeb;
-    height: 1px;
+  background-color: #ebebeb;
+  height: 1px;
 }
 
 .vbars {
-    position: absolute;
+  position: absolute;
 }
 
 .vbar {
-    width: 100%;
-    background-color: #202020;
-    border-radius: 2px 2px 0 0;
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
+  width: 100%;
+  background-color: #202020;
+  border-radius: 2px 2px 0 0;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .vbar:hover {
-    background-color: #181818;
+  background-color: #181818;
 }
 
 .january {
-    height: 0%;
+  height: 0%;
 }
 
 .february {
-    height: 31.33%;
+  height: 31.33%;
 }
 
 .march {
-    height: 81%;
+  height: 81%;
 }
 
 .april {
-    height: 0%;
+  height: 0%;
 }
 
 .may {
-    height: 0%;
+  height: 0%;
 }
 
 .june {
-    height: 0%;
+  height: 0%;
 }
 
 .july {
-    height: 0%;
+  height: 0%;
 }
 
 .august {
-    height: 0%;
+  height: 0%;
 }
 
 .september {
-    height: 0%;
+  height: 0%;
 }
 
 .october {
-    height: 0%;
+  height: 0%;
 }
 
 .november {
-    height: 0%;
+  height: 0%;
 }
 
 .december {
-    height: 0%;
+  height: 0%;
 }
 
 bar {
-    position: relative;
+  position: relative;
 }
 
 bar[data-hover]::before {
-    content: attr(data-hover);
-    position: absolute;
-    left: 50%;
-    bottom: 105%;
-    transform: translateX(-50%);
-    background: #f5f5f5;
-    color: #202020;
-    opacity: 0;
-    padding: 0.4rem;
-    border-radius: 2px;
+  content: attr(data-hover);
+  position: absolute;
+  left: 50%;
+  bottom: 105%;
+  transform: translateX(-50%);
+  background: #f5f5f5;
+  color: #202020;
+  opacity: 0;
+  padding: 0.4rem;
+  border-radius: 2px;
 }
 
 bar[data-hover]:hover::before {
-    opacity: 1;
+  opacity: 1;
 }
 
 @media (max-width: 1280px) {
-    .chart {
-        height: 25rem;
-    }
+  .chart {
+    height: 25rem;
+  }
 
-    .percent {
-        font-size: 0.875rem;
-    }
+  .percent {
+    font-size: 0.875rem;
+  }
 
-    .vbars {
-        gap: 0.75rem;
-    }
+  .vbars {
+    gap: 0.75rem;
+  }
 
-    .haxis {
-        gap: 0.75rem;
-    }
+  .haxis {
+    gap: 0.75rem;
+  }
 
-    .month {
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        font-size: 0.875rem;
-    }
+  .month {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 1024px) {
-    .chart-and-table {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
+  .chart-and-table {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 
-    .chart {
-        height: 20rem;
-        width: 100%;
-    }
+  .chart {
+    height: 20rem;
+    width: 100%;
+  }
 
-    .percent {
-        font-size: 0.75rem;
-    }
+  .percent {
+    font-size: 0.75rem;
+  }
 
-    .vbars {
-        gap: 0.5rem;
-    }
+  .vbars {
+    gap: 0.5rem;
+  }
 
-    .haxis {
-        gap: 0.5rem;
-    }
+  .haxis {
+    gap: 0.5rem;
+  }
 
-    .month {
-        -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-        font-size: 0.75rem;
-    }
+  .month {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px),
+(max-height: 768px) {
+  .chart-and-table {
+    gap: 2rem !important;
+  }
 }
 
 @media (max-width: 768px) {
-    .chart {
-        height: 15rem;
-    }
+  .chart {
+    height: 15rem;
+  }
 
-    .vbars {
-        gap: 0.1rem;
-    }
+  .vbars {
+    gap: 0.1rem;
+  }
 
-    .haxis {
-        gap: 0.1rem;
-    }
+  .haxis {
+    gap: 0.1rem;
+  }
 }
 
 /* Table */
 
 .table {
-    height: 30rem;
-    background-color: #f5f5f5;
-    border-radius: 2px;
+  height: 30rem;
+  background-color: #f5f5f5;
+  border-radius: 2px;
 }
 
 td:nth-child(even) {
-    text-align: right;
+  text-align: right;
 }
 
 td {
-    width: 50%;
+  width: 50%;
 }
 
 @media (max-width: 1024px) {
-    .table {
-        width: 100%;
-    }
+  .table {
+    width: 100%;
+  }
+}
+
+/* Line Chart */
+
+#container {
+  height: 30rem;
+}
+
+@media (max-width: 1280px) {
+  #container {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #container {
+    height: 20rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    height: 15rem;
+  }
 }
