@@ -187,9 +187,6 @@ header {
 }
 
 .header__content__left {
-    -webkit-box-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -203,9 +200,7 @@ header {
 
 .header-img {
     height: 100%;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+    min-width: 10%;
     background: url("/assets/images/header_asset_1080px.jpg");
     background-size: cover;
     background-position: center;
@@ -215,6 +210,10 @@ header {
 (max-height: 768px) {
     .header__content__left {
         padding: 2rem;
+    }
+
+    .header-img {
+        display: none;
     }
 }
 
