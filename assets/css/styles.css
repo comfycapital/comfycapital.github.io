@@ -86,7 +86,8 @@ nav {
 .privacy-consent {
     width: 100%;
     padding: 1rem 4rem;
-    background-color: #B4BDCB;
+    color: #fafafa;
+    background-color: #202020;
 }
 
 @media (orientation: landscape) {
@@ -111,9 +112,6 @@ nav {
         display: -ms-flexbox !important;
         display: flex !important;
     }
-}
-
-@media (max-width: 640px) {
     .nav__links {
         padding: 2rem !important;
     }
@@ -206,12 +204,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     gap: 2rem;
 }
 
 footer a {
-    color: #fafafa;
+    color: #f0f0f0;
 }
 
 .footer__nav a {
@@ -221,14 +218,13 @@ footer a {
 }
 
 .footer__nav a:hover {
-    color: #e0e0e0;
+    color: #fafafa;
 }
 
 footer h4,
 footer div,
 footer span {
     color: #545454;
-    text-align: center;
 }
 
 .footer__nav {
