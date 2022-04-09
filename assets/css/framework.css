@@ -42,7 +42,7 @@ span {
     background-color: #000000;
 }
 
-.font-white {
+.font-light {
     color: #fafafa;
 }
 
@@ -50,14 +50,14 @@ span {
     color: #202020;
 }
 
-.a-white {
+.a-light {
     color: #fafafa;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
 
-.a-white:hover {
+.a-light:hover {
     color: #e0e0e0;
 }
 
@@ -95,7 +95,21 @@ span {
     text-align: right;
 }
 
+.underline-light {
+    color: #fafafa;
+    border-bottom: 1px solid #fafafa;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.underline-light:hover {
+    color: #202020;
+    background-color: #fafafa;
+}
+
 .underline-dark {
+    color: #202020;
     border-bottom: 1px solid #202020;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
@@ -1025,11 +1039,11 @@ h6 {
 
 /* Background */
 
-.bg-white {
+.bg-light {
     background-color: #fafafa;
 }
 
-.bg-dark {
+.bg-light {
     background-color: #202020;
 }
 
