@@ -298,6 +298,12 @@ td {
   width: 50%;
 }
 
+.table__separation {
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 @media (max-width: 1024px) {
   .table {
     width: 100%;
