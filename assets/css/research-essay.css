@@ -1,22 +1,9 @@
-.research__essay {
-    background-color: #fafafa;
-    position: relative;
-    z-index: 2;
-}
-
 .essay {
     width: 40%;
 }
 
 .essay img {
     image-rendering: auto;
-}
-
-@media (max-width: 768px),
-(max-height: 768px) {
-    .research__essay {
-        padding: 2rem !important;
-    }
 }
 
 @media (max-width: 1280px) {
