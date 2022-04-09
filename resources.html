@@ -56,79 +56,78 @@
         </div>
     </nav>
 
-    <div class="bg p-8 bg-white">
-        <div class="resources flex col justify-content-between gap-8 animate__fadeInUp">
-            <!-- Fund Details -->
-            <div class="w-full flex col justify-content-evenly gap-4">
-                <div class="details w-half flex col align-items-start gap-8 h-full">
-                    <div class="w-full flex col gap-4">
-                        <h1 class="font-6xl">Fund Details</h1>
-                        <div class="w-full">
-                            <div class="w-full flex row justify-content-between">
-                                <div>Inception Date</div>
-                                <div>01/21/2022</div>
-                            </div>
-                            <div class="w-full flex row justify-content-between">
-                                <div>Typical Number of Holdings</div>
-                                <div>1-5</div>
-                            </div>
+    <div class="main-container">
+        <!-- Fund Details -->
+        <div class="w-full flex col justify-content-evenly gap-4">
+            <div class="details w-half flex col align-items-start gap-8 h-full">
+                <div class="w-full flex col gap-4">
+                    <h1 class="font-6xl">Fund Details</h1>
+                    <div class="w-full">
+                        <div class="w-full flex row justify-content-between">
+                            <div>Inception Date</div>
+                            <div>01/21/2022</div>
+                        </div>
+                        <div class="w-full flex row justify-content-between">
+                            <div>Typical Number of Holdings</div>
+                            <div>1-5</div>
                         </div>
                     </div>
-                    <div class="w-full flex col gap-4">
-                        <h1 class="font-6xl">Investment Approach</h1>
-                        <div>With a focus on digital commodities, our investment approach favors high-conviction
-                            positions
-                            in assets that we believe could overcome time, political and international barriers.</div>
+                </div>
+                <div class="w-full flex col gap-4">
+                    <h1 class="font-6xl">Investment Approach</h1>
+                    <div>With a focus on digital commodities, our investment approach favors high-conviction
+                        positions
+                        in assets that we believe could overcome time, political and international barriers.</div>
+                </div>
+                <div class="w-full flex col gap-4">
+                    <h1 class="font-6xl">Areas of Interest</h1>
+                    <div>
+                        <div>Digital commodities</div>
+                        <div>High-performance computing</div>
+                        <div>Web3 and Blockchain technologies</div>
                     </div>
-                    <div class="w-full flex col gap-4">
-                        <h1 class="font-6xl">Areas of Interest</h1>
-                        <div>
-                            <div>Digital commodities</div>
-                            <div>High-performance computing</div>
-                            <div>Web3 and Blockchain technologies</div>
+                </div>
+                <div class="w-full flex col gap-4">
+                    <h1 class="font-6xl">Regional Exposure</h1>
+                    <div class="regional-exposure w-full flex row">
+                        <div class="h-full w-half flex col justify-content-between gap-2">
+                            <div>North America</div>
+                            <div>Europe</div>
+                            <div>Asia</div>
                         </div>
-                    </div>
-                    <div class="w-full flex col gap-4">
-                        <h1 class="font-6xl">Regional Exposure</h1>
-                        <div class="regional-exposure w-full flex row">
-                            <div class="h-full w-half flex col justify-content-between gap-2">
-                                <div>North America</div>
-                                <div>Europe</div>
-                                <div>Asia</div>
+                        <div class="h-full w-half flex col justify-content-between gap-2">
+                            <div class="bar-bg flex justify-content-end align-items-center gap-1">
+                                <div class="inner-bar-text">98.99%</div>
+                                <div class="inner-bar-na h-full"></div>
                             </div>
-                            <div class="h-full w-half flex col justify-content-between gap-2">
-                                <div class="bar-bg flex justify-content-end align-items-center gap-1">
-                                    <div class="inner-bar-text">98.99%</div>
-                                    <div class="inner-bar-na h-full"></div>
-                                </div>
-                                <div class="bar-bg flex justify-content-end align-items-center gap-1">
-                                    <div class="inner-bar-text">0.50%</div>
-                                    <div class="inner-bar-eu h-full"></div>
-                                </div>
-                                <div class="bar-bg flex justify-content-end align-items-center gap-1">
-                                    <div class="inner-bar-text">0.51%</div>
-                                    <div class="inner-bar-as h-full"></div>
-                                </div>
+                            <div class="bar-bg flex justify-content-end align-items-center gap-1">
+                                <div class="inner-bar-text">0.50%</div>
+                                <div class="inner-bar-eu h-full"></div>
+                            </div>
+                            <div class="bar-bg flex justify-content-end align-items-center gap-1">
+                                <div class="inner-bar-text">0.51%</div>
+                                <div class="inner-bar-as h-full"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Title Chart and Table -->
-            <div class="title-chart-and-table w-full flex col gap-8">
-                <div class="flex justify-content-between align-items-end">
-                    <div class="flex col gap-4">
-                        <h1 class="font-6xl">Performance Summary</h1>
-                        <h4>Comfy Capital Month-over-month Returns</h4>
-                    </div>
-                    <h4>As of 01/21/2022</h4>
+        </div>
+        <!-- Title Chart and Table -->
+        <div class="title-chart-and-table w-full flex col gap-8">
+            <div class="flex justify-content-between align-items-end">
+                <div class="flex col gap-4">
+                    <h1 class="font-6xl">Performance Summary</h1>
+                    <h4>Comfy Capital Month-over-month Returns</h4>
                 </div>
-                <!-- Chart and Table -->
-                <div class="chart-and-table flex row align-items-center gap-8">
+                <h4>As of 01/21/2022</h4>
+            </div>
+            <!-- Chart and Table -->
+            <div class="chart-and-table flex row align-items-center gap-8">
 
-                    <div class="h-full w-half" id="container"></div>
+                <div class="h-full w-half" id="container"></div>
 
-                    <!--
+                <!--
                     <div class="chart h-full w-half">
                         <div class="data-and-vaxis h-full w-full flex row gap-1">
                             <div class="vaxis flex col justify-content-between">
@@ -181,81 +180,80 @@
                         </div>
                     </div>
                     -->
-                    <div class="table h-full w-half p-2">
-                        <table class="h-full w-full">
-                            <tr>
-                                <td colspan="2">
-                                    <h4>Comfy Capital Month-over-month Returns</h4>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <h4 class="table__separation">The data is automatically updated on the first of each
-                                        month.</h4>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>January</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>February</td>
-                                <td>2.82%</td>
-                            </tr>
-                            <tr>
-                                <td>March</td>
-                                <td>7.29%</td>
-                            </tr>
-                            <tr>
-                                <td>April</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>May</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>June</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>July</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>August</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>September</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>October</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>November</td>
-                                <td>No data</td>
-                            </tr>
-                            <tr>
-                                <td>December</td>
-                                <td>No data</td>
-                            </tr>
-                        </table>
-                    </div>
+                <div class="table h-full w-half p-2">
+                    <table class="h-full w-full">
+                        <tr>
+                            <td colspan="2">
+                                <h4>Comfy Capital Month-over-month Returns</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <h4 class="table__separation">The data is automatically updated on the first of each
+                                    month.</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>January</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>2.82%</td>
+                        </tr>
+                        <tr>
+                            <td>March</td>
+                            <td>7.29%</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>June</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>August</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>September</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>October</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>November</td>
+                            <td>No data</td>
+                        </tr>
+                        <tr>
+                            <td>December</td>
+                            <td>No data</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-            <!-- Disclosure -->
-            <h4>All statements made regarding companies, securities or other financial information on this site are
-                strictly
-                beliefs and points of view held by Comfy Capital and are subject to change without notice. The
-                information
-                on this site is for informational purposes only and should not be considered as investment advice or a
-                recommendation of any particular security, strategy or investment product. Past performance is provided
-                for
-                illustrative purposes only and is not a guide to future performance.</h4>
         </div>
+        <!-- Disclosure -->
+        <h4>All statements made regarding companies, securities or other financial information on this site are
+            strictly
+            beliefs and points of view held by Comfy Capital and are subject to change without notice. The
+            information
+            on this site is for informational purposes only and should not be considered as investment advice or a
+            recommendation of any particular security, strategy or investment product. Past performance is provided
+            for
+            illustrative purposes only and is not a guide to future performance.</h4>
     </div>
 
     <footer>
