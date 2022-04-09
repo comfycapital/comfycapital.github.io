@@ -33,6 +33,10 @@ span {
     line-height: 1.5rem;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .font-white {
     color: #fafafa;
 }
