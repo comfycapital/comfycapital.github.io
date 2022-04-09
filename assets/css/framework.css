@@ -62,14 +62,14 @@ span {
 }
 
 .a-gray {
-    color: #c7c7c7;
+    color: #b8b8b8;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
 
 .a-gray:hover {
-    color: #adadad;
+    color: #9e9e9e;
 }
 
 .a-dark {
