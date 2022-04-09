@@ -188,7 +188,34 @@ footer {
     position: sticky;
     bottom: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 4rem;
 }
+
+footer a, footer h4 {
+    color: #fafafa;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.footer__nav a {
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.footer__nav a:hover {
+    color: #e0e0e0;
+}
+
 
 @media (max-width: 640px) {
     footer {
