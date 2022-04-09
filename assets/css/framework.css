@@ -30,7 +30,6 @@ span {
     height: auto;
     width: auto;
     font-size: 1rem;
-    line-height: 1.5rem;
 }
 
 .bold {
@@ -206,7 +205,7 @@ span {
     line-height: 1;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1536px) {
     .font-10xl {
         font-size: 8rem;
         /* 128px */
@@ -273,7 +272,7 @@ span {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     .font-10xl {
         font-size: 6rem;
         /* 96px */
@@ -334,7 +333,7 @@ span {
     }
 }
 
-@media (max-width: 768px),
+@media (max-width: 1024px),
 (max-height: 768px) {
     .font-10xl {
         font-size: 4.5rem;
@@ -390,7 +389,7 @@ span {
     }
 }
 
-@media (max-width: 640px),
+@media (max-width: 768px),
 (max-height: 640px) {
     .font-10xl {
         font-size: 3.75rem;
@@ -442,27 +441,57 @@ span {
 }
 
 h1 {
+    display: block;
     font-size: 2rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h2 {
+    display: block;
     font-size: 1.5rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h3 {
+    display: block;
     font-size: 1.17rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h4 {
+    display: block;
     font-size: 1rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h5 {
+    display: block;
     font-size: .83rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h6 {
+    display: block;
     font-size: .67rem;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Padding */
