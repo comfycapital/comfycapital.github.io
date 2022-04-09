@@ -36,6 +36,12 @@ span {
     font-weight: bold;
 }
 
+.spacing {
+    height: 2px;
+    width: 200px;
+    background-color: #000000;
+}
+
 .font-white {
     color: #fafafa;
 }
