@@ -160,14 +160,12 @@ header {
     padding: 0rem 4rem 4rem;
 }
 
-.img {
+.header-img {
     height: 100%;
     flex: 1;
-}
-
-header img {
-    height: 100%;
-    object-fit: cover;
+    background: url("/assets/images/header_asset_1080px.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 768px),
