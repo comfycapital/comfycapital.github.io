@@ -1,10 +1,5 @@
 /* Resources */
 
-.bg {
-  position: relative;
-  z-index: 2;
-}
-
 @media (max-width: 1024px) {
   .details {
     width: 100%;
@@ -13,14 +8,6 @@
 
 @media (max-width: 768px),
 (max-height: 768px) {
-  .bg {
-    padding: 2rem !important;
-  }
-
-  .resources {
-    gap: 2rem;
-  }
-
   .details {
     gap: 2rem;
   }
