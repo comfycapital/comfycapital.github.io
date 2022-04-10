@@ -43,7 +43,7 @@ span {
 
 .font-family-md {
     font-family: cormorant-garamond, serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -200,8 +200,8 @@ header {
 
 .header-img {
     height: 100%;
-    min-width: 10%;
-    background: url("/assets/images/header_asset_1080px.jpg");
+    min-width: 25%;
+    background: url("/assets/images/header_asset_bull.jpg");
     background-size: cover;
     background-position: center;
 }
