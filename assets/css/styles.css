@@ -200,11 +200,30 @@ header {
 
 .header-img {
     height: 100%;
-    min-width: 25%;
-    background: url("/assets/images/header_asset_bull.jpg");
+    min-width: 50%;
+    background: url("/assets/images/header_asset_1080px.jpg");
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 1536px) {
+    .header-img {
+        min-width: 45%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .header-img {
+        min-width: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-img {
+        min-width: 35%;
+    }
+}
+
 
 @media (max-width: 768px),
 (max-height: 768px) {
