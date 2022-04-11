@@ -954,15 +954,19 @@ h6 {
 }
 
 .align-self-start {
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
 }
 
 .align-self-center {
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 
 .align-self-end {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 
 .gap-0 {
