@@ -61,6 +61,17 @@ nav {
     background-color: #f5f5f5;
 }
 
+nav a {
+    color: #202020;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
 .nav__desktop {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -102,11 +113,35 @@ nav {
     display: none;
 }
 
+.nav__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 4rem;
+}
+
 .privacy-consent {
     width: 100%;
     padding: 1rem 4rem;
     color: #fafafa;
     background-color: #202020;
+}
+
+.privacy-consent a {
+    display: inline-block;
+    color: #fafafa;
+    border-bottom: 1px solid #fafafa;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.privacy-consent a:hover {
+    color: #202020;
+    background-color: #fafafa;
 }
 
 @media (orientation: landscape) {
