@@ -208,9 +208,14 @@ header {
 }
 
 .shoutout {
+    color: #e0e0e0;
     position: absolute;
     bottom: 1rem;
     left: 1rem;
+}
+
+.shoutout a {
+    color: #e0e0e0;
 }
 
 @media (max-width: 1536px) {
