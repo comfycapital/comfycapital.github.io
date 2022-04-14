@@ -118,8 +118,8 @@ nav a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     gap: 4rem;
 }
 
@@ -243,14 +243,21 @@ header {
 }
 
 .shoutout {
-    color: #e0e0e0;
+    color: #ebebeb;
     position: absolute;
     bottom: 1rem;
     left: 1rem;
 }
 
 .shoutout a {
-    color: #e0e0e0;
+    color: #ebebeb;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.shoutout a:hover {
+    color: #fafafa;
 }
 
 @media (max-width: 1536px) {
