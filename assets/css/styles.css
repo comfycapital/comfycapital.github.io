@@ -236,7 +236,7 @@ header {
 .header-img {
     position: relative;
     height: 100%;
-    min-width: 50%;
+    min-width: 30%;
     background: url("/assets/images/header_asset_1080px.jpg");
     background-size: cover;
     background-position: center;
@@ -244,40 +244,17 @@ header {
 
 .shoutout {
     color: #ebebeb;
+    text-shadow: #202020 0 0 5px;
     position: absolute;
     bottom: 1rem;
     left: 1rem;
 }
 
-.shoutout a {
-    color: #ebebeb;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-
-.shoutout a:hover {
-    color: #fafafa;
-}
-
-@media (max-width: 1536px) {
-    .header-img {
-        min-width: 45%;
-    }
-}
-
 @media (max-width: 1280px) {
-    .header-img {
-        min-width: 40%;
-    }
-}
-
-@media (max-width: 1024px) {
     .header-img {
         min-width: 35%;
     }
 }
-
 
 @media (max-width: 768px),
 (max-height: 768px) {
