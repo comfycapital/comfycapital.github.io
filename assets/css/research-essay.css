@@ -2,17 +2,20 @@
     width: 40%;
 }
 
-.essay h4{
+.essay h4 {
     font-size: 1.1rem;
 }
 
 .essay img {
-    image-rendering: auto;
+    min-width: 800px;
 }
 
 @media (max-width: 1280px) {
     .essay {
         width: 60%;
+    }
+    .essay img {
+        min-width: 0px;
     }
 }
 
