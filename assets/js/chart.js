@@ -6,7 +6,7 @@ anychart.onDocumentReady(function () {
       ['Feb', 2.82],
       ['March', 7.29],
       ['Apr', -8.69],
-      ['May'],
+      ['May', -16.73],
       ['June'],
       ['July'],
       ['Aug'],
