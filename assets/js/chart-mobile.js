@@ -7,7 +7,7 @@ anychart.onDocumentReady(function () {
             [' M ', 7.29],
             ['A', -8.69],
             ['M', -16.73],
-            ['J'],
+            ['J', -13.68],
             ['J'],
             ['A'],
             ['S'],
