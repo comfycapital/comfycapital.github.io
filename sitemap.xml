@@ -7,23 +7,10 @@
         <priority>1.00</priority>
     </url>
 
-
-    <url>
-        <loc>https://www.comfycapital.org/resources</loc>
-        <lastmod>2022-03-18T21:54:40+00:00</lastmod>
-        <priority>0.80</priority>
-    </url>
-
-    <url>
-        <loc>https://www.comfycapital.org/privacy</loc>
-        <lastmod>2022-03-18T21:54:40+00:00</lastmod>
-        <priority>0.60</priority>
-    </url>
-
     <url>
         <loc>https://www.comfycapital.org/404</loc>
         <lastmod>2022-03-18T21:54:40+00:00</lastmod>
-        <priority>0.40</priority>
+        <priority>0.80</priority>
     </url>
 
 </urlset>
