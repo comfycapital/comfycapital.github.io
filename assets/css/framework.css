@@ -129,18 +129,6 @@ span {
     background-color: #202020;
 }
 
-::-moz-selection {
-    color: #fafafa;
-    background: #202020;
-    text-shadow: none;
-}
-
-::selection {
-    color: #fafafa;
-    background: #202020;
-    text-shadow: none;
-}
-
 .font-xs {
     font-size: 0.75rem;
     /* 12px */
