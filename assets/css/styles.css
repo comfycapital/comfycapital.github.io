@@ -174,15 +174,15 @@ span {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    border-bottom: 1px solid #202020;
+    border-bottom: 1px solid #1D1F21;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 }
 
 .homelink:hover {
-    color: #fafafa;
-    background-color: #202020;
+    color: #FFFDFA;
+    background-color: #1D1F21;
 }
 
 .right__container {
@@ -194,6 +194,7 @@ span {
     background: url("/assets/images/");
     background-size: cover;
     background-position: center;
+    image-rendering: crisp-edges;
     border-radius: 6px;
     border: 1px solid;
     border-color: #E5E4E1;
