@@ -130,11 +130,14 @@ span {
     width: -moz-fit-content;
     width: fit-content;
     color: #FFFDFA;
-    background-color: #1D1F21;
+    background-color: #26292B;
     border-radius: 6px;
     border: 1px solid;
     border-color: #141617;
     padding: 0.5rem 1rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .header a:hover {
@@ -159,7 +162,7 @@ span {
     background-color: #FFFDFA;
     border-radius: 6px;
     border: 1px solid;
-    border-color: #E5E4E1;
+    border-color: #EBE9E6;
     padding: 0.5rem 1rem;
 }
 
@@ -170,34 +173,26 @@ span {
     font-size: xx-large;
 }
 
-.homelink {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    border-bottom: 1px solid #1D1F21;
-    -webkit-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-
-.homelink:hover {
-    color: #FFFDFA;
-    background-color: #1D1F21;
-}
-
 .right__container {
     height: 100%;
     min-height: 5rem;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background: url("/assets/images/");
+    background: url("/assets/images/cc_right__container_img_1080x1620.jpg");
     background-size: cover;
     background-position: center;
     image-rendering: crisp-edges;
     border-radius: 6px;
     border: 1px solid;
-    border-color: #E5E4E1;
+    border-color: #EBE9E6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 1rem;
 }
 
 @media (orientation: portrait) {
@@ -228,7 +223,6 @@ span {
     }
 }
 
-
 /* Footer */
 
 footer {
@@ -236,8 +230,8 @@ footer {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    background-color: #191a1c;
-    color: #4a4f54 !important;
+    background-color: #191A1C;
+    color: #41464A !important;
     padding: 2rem;
     border-radius: 6px;
     border: 1px solid;
@@ -270,7 +264,18 @@ footer {
 }
 
 .footer__text div {
-    color: #4a4f54;
+    color: #41464A;
+}
+
+.footer__text div a {
+    color: #555B61;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer__text div a:hover {
+    color: #41464A;
 }
 
 footer ::-moz-selection {
